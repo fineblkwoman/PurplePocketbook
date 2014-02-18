@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581929DDFE3F4CB09CB2A471 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016CEF4BD8244A690A264D8 /* libPods.a */; };
+		99562169188486CA00541044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99562168188486CA00541044 /* Foundation.framework */; };
+		9956216B188486CA00541044 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9956216A188486CA00541044 /* CoreGraphics.framework */; };
+		9956216D188486CA00541044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9956216C188486CA00541044 /* UIKit.framework */; };
+		99562173188486CA00541044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99562171188486CA00541044 /* InfoPlist.strings */; };
+		99562175188486CA00541044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99562174188486CA00541044 /* main.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99562179188486CA00541044 /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99562178188486CA00541044 /* PPAppDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99562181188486CB00541044 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99562180188486CB00541044 /* Images.xcassets */; };
+		99562188188486CB00541044 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99562187188486CB00541044 /* XCTest.framework */; };
+		99562189188486CB00541044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99562168188486CA00541044 /* Foundation.framework */; };
+		9956218A188486CB00541044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9956216C188486CA00541044 /* UIKit.framework */; };
+		99562192188486CB00541044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99562190188486CB00541044 /* InfoPlist.strings */; };
+		99562194188486CB00541044 /* The_Purple_PocketBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99562193188486CB00541044 /* The_Purple_PocketBookTests.m */; };
+		9956219F1884945200541044 /* DVLawTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956219E1884945200541044 /* DVLawTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		995621A21884947C00541044 /* PPSuccessTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A11884947C00541044 /* PPSuccessTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		995621A71885709400541044 /* DVDetailLawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A61885709400541044 /* DVDetailLawViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		995621AA18857ED800541044 /* TheLaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A918857ED800541044 /* TheLaw.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C195C2189FB21C002BF343 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C195C1189FB21C002BF343 /* CoreData.framework */; };
+		99C195EE189FE093002BF343 /* RSStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195E4189FE093002BF343 /* RSStateManager.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C195EF189FE093002BF343 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195E7189FE093002BF343 /* Question.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C195F0189FE093002BF343 /* startupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99C195E8189FE093002BF343 /* startupData.json */; };
+		99C195F1189FE093002BF343 /* RSSurveyQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C195F2189FE093002BF343 /* RSSurveyResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195EC189FE093002BF343 /* RSSurveyResultsViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C1960318A27AD0002BF343 /* PPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1960218A27AD0002BF343 /* PPMainViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C1962318A3F40F002BF343 /* PPocketbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1962218A3F40F002BF343 /* PPocketbook.png */; };
+		99C1962718AC8E8E002BF343 /* SideBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1962618AC8E8E002BF343 /* SideBarTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C1962A18AC8E9E002BF343 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1962918AC8E9E002BF343 /* SWRevealViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C1962B18AC9484002BF343 /* QuartzCore.framework */; };
+		99C196BF18AD880E002BF343 /* Family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C196BE18AD880E002BF343 /* Family.jpg */; };
+		99C196C118AD881C002BF343 /* information.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C018AD881C002BF343 /* information.jpg */; };
+		99C196C318AD882E002BF343 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C218AD882E002BF343 /* map.png */; };
+		99C196C718AD883D002BF343 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C418AD883D002BF343 /* menu.png */; };
+		99C196C818AD883D002BF343 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C518AD883D002BF343 /* menu@2x.png */; };
+		99C196C918AD883D002BF343 /* MessageText.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C618AD883D002BF343 /* MessageText.png */; };
+		99C196CD18AD8889002BF343 /* Quiz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C196CC18AD8889002BF343 /* Quiz.jpg */; };
+		99C196CF18AD889B002BF343 /* tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196CE18AD889B002BF343 /* tech.png */; };
+		99C196D118AD88AB002BF343 /* TheLaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C196D018AD88AB002BF343 /* TheLaw.jpg */; };
+		99C196D318AD88DA002BF343 /* MapMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196D218AD88DA002BF343 /* MapMarker.png */; };
+		99C196D718AD8B4D002BF343 /* ppbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196D618AD8B4D002BF343 /* ppbackground.png */; };
+		99C196E118ADC2EC002BF343 /* TBOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C196E018ADC2EC002BF343 /* TBOneViewController.m */; };
+		99C196E418ADC341002BF343 /* TBTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C196E318ADC341002BF343 /* TBTwoViewController.m */; };
+		99C196E718ADC66D002BF343 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C196E618ADC66D002BF343 /* ConnectionsViewController.m */; };
+		99C196EA18ADCD02002BF343 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C196E918ADCD02002BF343 /* MCManager.m */; };
+		99EF41851885FF0B004A148F /* saffron1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99EF41841885FF0B004A148F /* saffron1.jpg */; };
+		99EF41871885FF14004A148F /* saffron2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99EF41861885FF14004A148F /* saffron2.jpg */; };
+		99EF419018881208004A148F /* SuccessStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EF418F18881208004A148F /* SuccessStory.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99EF4193188829EE004A148F /* PPSuccessStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EF4192188829EE004A148F /* PPSuccessStoryViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99EF419D188852DE004A148F /* purple-handbag-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 99EF419B188852DE004A148F /* purple-handbag-hi.png */; };
+		99EF419E188852DE004A148F /* purple-purse-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 99EF419C188852DE004A148F /* purple-purse-hi.png */; };
+		99EF41A018895F07004A148F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF419F18895F07004A148F /* MapKit.framework */; };
+		99F208D7189A7E50003DDE7E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F208D6189A7E4F003DDE7E /* CoreLocation.framework */; };
+		99F208DA189AB01B003DDE7E /* SheltersLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F208D9189AB01B003DDE7E /* SheltersLocationViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F208DC189AB516003DDE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F208DB189AB516003DDE7E /* Main.storyboard */; };
+		99F208E2189AFB1E003DDE7E /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F208E1189AFB1E003DDE7E /* ResultsTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F208E5189AFB54003DDE7E /* ResultsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F208E4189AFB54003DDE7E /* ResultsTableCell.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0E4188F5CC900BCB3F3 /* StayingSafeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E3188F5CC900BCB3F3 /* StayingSafeTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0E7188F5CFD00BCB3F3 /* DVTechologyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E6188F5CFD00BCB3F3 /* DVTechologyTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0EA188F5D1B00BCB3F3 /* FindHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E9188F5D1B00BCB3F3 /* FindHelpTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0ED188F5F3900BCB3F3 /* StayingSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0EC188F5F3900BCB3F3 /* StayingSafeViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0F0188F5F5B00BCB3F3 /* StayingSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0EF188F5F5B00BCB3F3 /* StayingSafe.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0F31890B94900BCB3F3 /* TechSecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0F21890B94900BCB3F3 /* TechSecurityViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0F61890B98E00BCB3F3 /* TechSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0F51890B98E00BCB3F3 /* TechSecurity.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2D0FD1891AED300BCB3F3 /* WebsitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0FC1891AED300BCB3F3 /* WebsitesViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		FB6F280518A1433E00FA54DB /* QuizQuestions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB6F280318A1433E00FA54DB /* QuizQuestions.xcdatamodeld */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		FB6F280818A14E8800FA54DB /* PPMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6F280718A14E8800FA54DB /* PPMainTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9956218B188486CB00541044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9956215D188486CA00541044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99562164188486CA00541044;
+			remoteInfo = "The Purple PocketBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0016CEF4BD8244A690A264D8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0064C3CB08477696E2A372 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		99562165188486CA00541044 /* The Purple PocketBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Purple PocketBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99562168188486CA00541044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9956216A188486CA00541044 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9956216C188486CA00541044 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99562170188486CA00541044 /* The Purple PocketBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Purple PocketBook-Info.plist"; sourceTree = "<group>"; };
+		99562172188486CA00541044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99562174188486CA00541044 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99562176188486CA00541044 /* The Purple PocketBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Purple PocketBook-Prefix.pch"; sourceTree = "<group>"; };
+		99562177188486CA00541044 /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
+		99562178188486CA00541044 /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
+		99562180188486CB00541044 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99562186188486CB00541044 /* The Purple PocketBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Purple PocketBookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99562187188486CB00541044 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9956218F188486CB00541044 /* The Purple PocketBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Purple PocketBookTests-Info.plist"; sourceTree = "<group>"; };
+		99562191188486CB00541044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99562193188486CB00541044 /* The_Purple_PocketBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Purple_PocketBookTests.m; sourceTree = "<group>"; };
+		9956219D1884945100541044 /* DVLawTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVLawTableViewController.h; sourceTree = "<group>"; };
+		9956219E1884945200541044 /* DVLawTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVLawTableViewController.m; sourceTree = "<group>"; };
+		995621A01884947C00541044 /* PPSuccessTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSuccessTableViewController.h; sourceTree = "<group>"; };
+		995621A11884947C00541044 /* PPSuccessTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSuccessTableViewController.m; sourceTree = "<group>"; };
+		995621A51885709400541044 /* DVDetailLawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDetailLawViewController.h; sourceTree = "<group>"; };
+		995621A61885709400541044 /* DVDetailLawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDetailLawViewController.m; sourceTree = "<group>"; };
+		995621A818857ED700541044 /* TheLaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheLaw.h; sourceTree = "<group>"; };
+		995621A918857ED800541044 /* TheLaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheLaw.m; sourceTree = "<group>"; };
+		99C195C1189FB21C002BF343 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		99C195E4189FE093002BF343 /* RSStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSStateManager.m; sourceTree = "<group>"; };
+		99C195E5189FE093002BF343 /* RSStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSStateManager.h; sourceTree = "<group>"; };
+		99C195E6189FE093002BF343 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		99C195E7189FE093002BF343 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		99C195E8189FE093002BF343 /* startupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startupData.json; sourceTree = "<group>"; };
+		99C195E9189FE093002BF343 /* RSSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSurveyQuestionViewController.h; sourceTree = "<group>"; };
+		99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSurveyQuestionViewController.m; sourceTree = "<group>"; };
+		99C195EB189FE093002BF343 /* RSSurveyResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSurveyResultsViewController.h; sourceTree = "<group>"; };
+		99C195EC189FE093002BF343 /* RSSurveyResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSurveyResultsViewController.m; sourceTree = "<group>"; };
+		99C1960118A27ACF002BF343 /* PPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPMainViewController.h; path = "the purple pocketbook/PPMainViewController.h"; sourceTree = SOURCE_ROOT; };
+		99C1960218A27AD0002BF343 /* PPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPMainViewController.m; path = "the purple pocketbook/PPMainViewController.m"; sourceTree = SOURCE_ROOT; };
+		99C1962218A3F40F002BF343 /* PPocketbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PPocketbook.png; sourceTree = "<group>"; };
+		99C1962518AC8E8E002BF343 /* SideBarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideBarTableViewController.h; path = "the purple pocketbook/SideBarTableViewController.h"; sourceTree = "<group>"; };
+		99C1962618AC8E8E002BF343 /* SideBarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideBarTableViewController.m; path = "the purple pocketbook/SideBarTableViewController.m"; sourceTree = "<group>"; };
+		99C1962818AC8E9E002BF343 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "the purple pocketbook/SWRevealViewController.h"; sourceTree = "<group>"; };
+		99C1962918AC8E9E002BF343 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "the purple pocketbook/SWRevealViewController.m"; sourceTree = "<group>"; };
+		99C1962B18AC9484002BF343 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		99C196BE18AD880E002BF343 /* Family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Family.jpg; path = "the purple pocketbook/Family.jpg"; sourceTree = "<group>"; };
+		99C196C018AD881C002BF343 /* information.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = information.jpg; path = "the purple pocketbook/information.jpg"; sourceTree = "<group>"; };
+		99C196C218AD882E002BF343 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "the purple pocketbook/map.png"; sourceTree = "<group>"; };
+		99C196C418AD883D002BF343 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "the purple pocketbook/menu.png"; sourceTree = "<group>"; };
+		99C196C518AD883D002BF343 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "the purple pocketbook/menu@2x.png"; sourceTree = "<group>"; };
+		99C196C618AD883D002BF343 /* MessageText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MessageText.png; path = "the purple pocketbook/MessageText.png"; sourceTree = "<group>"; };
+		99C196CC18AD8889002BF343 /* Quiz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Quiz.jpg; path = "the purple pocketbook/Quiz.jpg"; sourceTree = "<group>"; };
+		99C196CE18AD889B002BF343 /* tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tech.png; path = "the purple pocketbook/tech.png"; sourceTree = "<group>"; };
+		99C196D018AD88AB002BF343 /* TheLaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TheLaw.jpg; path = "the purple pocketbook/TheLaw.jpg"; sourceTree = "<group>"; };
+		99C196D218AD88DA002BF343 /* MapMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MapMarker.png; path = "the purple pocketbook/MapMarker.png"; sourceTree = "<group>"; };
+		99C196D618AD8B4D002BF343 /* ppbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ppbackground.png; path = "the purple pocketbook/ppbackground.png"; sourceTree = "<group>"; };
+		99C196DF18ADC2EB002BF343 /* TBOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBOneViewController.h; path = "the purple pocketbook/TBOneViewController.h"; sourceTree = SOURCE_ROOT; };
+		99C196E018ADC2EC002BF343 /* TBOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBOneViewController.m; path = "the purple pocketbook/TBOneViewController.m"; sourceTree = SOURCE_ROOT; };
+		99C196E218ADC341002BF343 /* TBTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBTwoViewController.h; path = "the purple pocketbook/TBTwoViewController.h"; sourceTree = SOURCE_ROOT; };
+		99C196E318ADC341002BF343 /* TBTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBTwoViewController.m; path = "the purple pocketbook/TBTwoViewController.m"; sourceTree = SOURCE_ROOT; };
+		99C196E518ADC66D002BF343 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionsViewController.h; path = "the purple pocketbook/ConnectionsViewController.h"; sourceTree = SOURCE_ROOT; };
+		99C196E618ADC66D002BF343 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionsViewController.m; path = "the purple pocketbook/ConnectionsViewController.m"; sourceTree = SOURCE_ROOT; };
+		99C196E818ADCD02002BF343 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCManager.h; path = "the purple pocketbook/MCManager.h"; sourceTree = SOURCE_ROOT; };
+		99C196E918ADCD02002BF343 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCManager.m; path = "the purple pocketbook/MCManager.m"; sourceTree = SOURCE_ROOT; };
+		99EF41841885FF0B004A148F /* saffron1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saffron1.jpg; sourceTree = "<group>"; };
+		99EF41861885FF14004A148F /* saffron2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saffron2.jpg; sourceTree = "<group>"; };
+		99EF418E18881208004A148F /* SuccessStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessStory.h; sourceTree = "<group>"; };
+		99EF418F18881208004A148F /* SuccessStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessStory.m; sourceTree = "<group>"; };
+		99EF4191188829EE004A148F /* PPSuccessStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSuccessStoryViewController.h; sourceTree = "<group>"; };
+		99EF4192188829EE004A148F /* PPSuccessStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSuccessStoryViewController.m; sourceTree = "<group>"; };
+		99EF419B188852DE004A148F /* purple-handbag-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple-handbag-hi.png"; sourceTree = "<group>"; };
+		99EF419C188852DE004A148F /* purple-purse-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple-purse-hi.png"; sourceTree = "<group>"; };
+		99EF419F18895F07004A148F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		99F208D6189A7E4F003DDE7E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		99F208D8189AB01B003DDE7E /* SheltersLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheltersLocationViewController.h; sourceTree = "<group>"; };
+		99F208D9189AB01B003DDE7E /* SheltersLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheltersLocationViewController.m; sourceTree = "<group>"; };
+		99F208DB189AB516003DDE7E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99F208E0189AFB1E003DDE7E /* ResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		99F208E1189AFB1E003DDE7E /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
+		99F208E3189AFB54003DDE7E /* ResultsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableCell.h; sourceTree = "<group>"; };
+		99F208E4189AFB54003DDE7E /* ResultsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableCell.m; sourceTree = "<group>"; };
+		99F2D0E2188F5CC800BCB3F3 /* StayingSafeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StayingSafeTableViewController.h; sourceTree = "<group>"; };
+		99F2D0E3188F5CC900BCB3F3 /* StayingSafeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StayingSafeTableViewController.m; sourceTree = "<group>"; };
+		99F2D0E5188F5CFD00BCB3F3 /* DVTechologyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTechologyTableViewController.h; sourceTree = "<group>"; };
+		99F2D0E6188F5CFD00BCB3F3 /* DVTechologyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTechologyTableViewController.m; sourceTree = "<group>"; };
+		99F2D0E8188F5D1B00BCB3F3 /* FindHelpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindHelpTableViewController.h; sourceTree = "<group>"; };
+		99F2D0E9188F5D1B00BCB3F3 /* FindHelpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindHelpTableViewController.m; sourceTree = "<group>"; };
+		99F2D0EB188F5F3900BCB3F3 /* StayingSafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StayingSafeViewController.h; sourceTree = "<group>"; };
+		99F2D0EC188F5F3900BCB3F3 /* StayingSafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StayingSafeViewController.m; sourceTree = "<group>"; };
+		99F2D0EE188F5F5B00BCB3F3 /* StayingSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StayingSafe.h; sourceTree = "<group>"; };
+		99F2D0EF188F5F5B00BCB3F3 /* StayingSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StayingSafe.m; sourceTree = "<group>"; };
+		99F2D0F11890B94900BCB3F3 /* TechSecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechSecurityViewController.h; sourceTree = "<group>"; };
+		99F2D0F21890B94900BCB3F3 /* TechSecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechSecurityViewController.m; sourceTree = "<group>"; };
+		99F2D0F41890B98E00BCB3F3 /* TechSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechSecurity.h; sourceTree = "<group>"; };
+		99F2D0F51890B98E00BCB3F3 /* TechSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechSecurity.m; sourceTree = "<group>"; };
+		99F2D0FB1891AED300BCB3F3 /* WebsitesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsitesViewController.h; sourceTree = "<group>"; };
+		99F2D0FC1891AED300BCB3F3 /* WebsitesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsitesViewController.m; sourceTree = "<group>"; };
+		FB6F280418A1433E00FA54DB /* QuizQuestions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuizQuestions.xcdatamodel; sourceTree = "<group>"; };
+		FB6F280618A14E8800FA54DB /* PPMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPMainTableViewController.h; path = "the purple pocketbook/PPMainTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		FB6F280718A14E8800FA54DB /* PPMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPMainTableViewController.m; path = "the purple pocketbook/PPMainTableViewController.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99562162188486CA00541044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */,
+				99C195C2189FB21C002BF343 /* CoreData.framework in Frameworks */,
+				99F208D7189A7E50003DDE7E /* CoreLocation.framework in Frameworks */,
+				99EF41A018895F07004A148F /* MapKit.framework in Frameworks */,
+				9956216B188486CA00541044 /* CoreGraphics.framework in Frameworks */,
+				9956216D188486CA00541044 /* UIKit.framework in Frameworks */,
+				99562169188486CA00541044 /* Foundation.framework in Frameworks */,
+				581929DDFE3F4CB09CB2A471 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99562183188486CB00541044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99562188188486CB00541044 /* XCTest.framework in Frameworks */,
+				9956218A188486CB00541044 /* UIKit.framework in Frameworks */,
+				99562189188486CB00541044 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9956215C188486CA00541044 = {
+			isa = PBXGroup;
+			children = (
+				9956216E188486CA00541044 /* The Purple PocketBook */,
+				9956218D188486CB00541044 /* The Purple PocketBookTests */,
+				99562167188486CA00541044 /* Frameworks */,
+				99562166188486CA00541044 /* Products */,
+				0E0064C3CB08477696E2A372 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		99562166188486CA00541044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99562165188486CA00541044 /* The Purple PocketBook.app */,
+				99562186188486CB00541044 /* The Purple PocketBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99562167188486CA00541044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C1962B18AC9484002BF343 /* QuartzCore.framework */,
+				99C195C1189FB21C002BF343 /* CoreData.framework */,
+				99F208D6189A7E4F003DDE7E /* CoreLocation.framework */,
+				99EF419F18895F07004A148F /* MapKit.framework */,
+				99562168188486CA00541044 /* Foundation.framework */,
+				9956216A188486CA00541044 /* CoreGraphics.framework */,
+				9956216C188486CA00541044 /* UIKit.framework */,
+				99562187188486CB00541044 /* XCTest.framework */,
+				0016CEF4BD8244A690A264D8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9956216E188486CA00541044 /* The Purple PocketBook */ = {
+			isa = PBXGroup;
+			children = (
+				99562177188486CA00541044 /* PPAppDelegate.h */,
+				99562178188486CA00541044 /* PPAppDelegate.m */,
+				99F208DB189AB516003DDE7E /* Main.storyboard */,
+				99C1962418AC8C8F002BF343 /* PPMain */,
+				99562180188486CB00541044 /* Images.xcassets */,
+				99C195FD18A26A50002BF343 /* SideBar Menu */,
+				99EF41A11889624F004A148F /* Shelter Locations Search */,
+				99C196D818AD8B7A002BF343 /* Messaging */,
+				99F2D0DF188F5C1E00BCB3F3 /* Staying Safe */,
+				995621A31885700E00541044 /* Domestic Violence Law */,
+				99EF41A5188AF686004A148F /* Quiz */,
+				99F2D0E0188F5C5000BCB3F3 /* Tech and Domestic Violence */,
+				995621A41885703400541044 /* Success Stories */,
+				99F2D0E1188F5C7700BCB3F3 /* Where to find Help */,
+				9956216F188486CA00541044 /* Supporting Files */,
+			);
+			path = "The Purple PocketBook";
+			sourceTree = "<group>";
+		};
+		9956216F188486CA00541044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99C1961B18A29750002BF343 /* Images */,
+				99C1962218A3F40F002BF343 /* PPocketbook.png */,
+				99EF419B188852DE004A148F /* purple-handbag-hi.png */,
+				99EF419C188852DE004A148F /* purple-purse-hi.png */,
+				99EF41861885FF14004A148F /* saffron2.jpg */,
+				99EF41841885FF0B004A148F /* saffron1.jpg */,
+				99562170188486CA00541044 /* The Purple PocketBook-Info.plist */,
+				99562171188486CA00541044 /* InfoPlist.strings */,
+				99562174188486CA00541044 /* main.m */,
+				99562176188486CA00541044 /* The Purple PocketBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9956218D188486CB00541044 /* The Purple PocketBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				99562193188486CB00541044 /* The_Purple_PocketBookTests.m */,
+				9956218E188486CB00541044 /* Supporting Files */,
+			);
+			path = "The Purple PocketBookTests";
+			sourceTree = "<group>";
+		};
+		9956218E188486CB00541044 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9956218F188486CB00541044 /* The Purple PocketBookTests-Info.plist */,
+				99562190188486CB00541044 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		995621A31885700E00541044 /* Domestic Violence Law */ = {
+			isa = PBXGroup;
+			children = (
+				9956219D1884945100541044 /* DVLawTableViewController.h */,
+				9956219E1884945200541044 /* DVLawTableViewController.m */,
+				995621A51885709400541044 /* DVDetailLawViewController.h */,
+				995621A61885709400541044 /* DVDetailLawViewController.m */,
+				995621A818857ED700541044 /* TheLaw.h */,
+				995621A918857ED800541044 /* TheLaw.m */,
+			);
+			name = "Domestic Violence Law";
+			sourceTree = "<group>";
+		};
+		995621A41885703400541044 /* Success Stories */ = {
+			isa = PBXGroup;
+			children = (
+				995621A01884947C00541044 /* PPSuccessTableViewController.h */,
+				995621A11884947C00541044 /* PPSuccessTableViewController.m */,
+				99EF4191188829EE004A148F /* PPSuccessStoryViewController.h */,
+				99EF4192188829EE004A148F /* PPSuccessStoryViewController.m */,
+				99EF418E18881208004A148F /* SuccessStory.h */,
+				99EF418F18881208004A148F /* SuccessStory.m */,
+			);
+			name = "Success Stories";
+			sourceTree = "<group>";
+		};
+		99C195FD18A26A50002BF343 /* SideBar Menu */ = {
+			isa = PBXGroup;
+			children = (
+				99C1962518AC8E8E002BF343 /* SideBarTableViewController.h */,
+				99C1962618AC8E8E002BF343 /* SideBarTableViewController.m */,
+				99C1962818AC8E9E002BF343 /* SWRevealViewController.h */,
+				99C1962918AC8E9E002BF343 /* SWRevealViewController.m */,
+			);
+			name = "SideBar Menu";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		99C1961B18A29750002BF343 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				99C196BE18AD880E002BF343 /* Family.jpg */,
+				99C196C218AD882E002BF343 /* map.png */,
+				99C196CE18AD889B002BF343 /* tech.png */,
+				99C196D618AD8B4D002BF343 /* ppbackground.png */,
+				99C196D218AD88DA002BF343 /* MapMarker.png */,
+				99C196D018AD88AB002BF343 /* TheLaw.jpg */,
+				99C196C418AD883D002BF343 /* menu.png */,
+				99C196C518AD883D002BF343 /* menu@2x.png */,
+				99C196CC18AD8889002BF343 /* Quiz.jpg */,
+				99C196C618AD883D002BF343 /* MessageText.png */,
+				99C196C018AD881C002BF343 /* information.jpg */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		99C1962418AC8C8F002BF343 /* PPMain */ = {
+			isa = PBXGroup;
+			children = (
+				FB6F280618A14E8800FA54DB /* PPMainTableViewController.h */,
+				FB6F280718A14E8800FA54DB /* PPMainTableViewController.m */,
+				99C1960118A27ACF002BF343 /* PPMainViewController.h */,
+				99C1960218A27AD0002BF343 /* PPMainViewController.m */,
+			);
+			name = PPMain;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		99C196D818AD8B7A002BF343 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				99C196DF18ADC2EB002BF343 /* TBOneViewController.h */,
+				99C196E018ADC2EC002BF343 /* TBOneViewController.m */,
+				99C196E218ADC341002BF343 /* TBTwoViewController.h */,
+				99C196E318ADC341002BF343 /* TBTwoViewController.m */,
+				99C196E518ADC66D002BF343 /* ConnectionsViewController.h */,
+				99C196E618ADC66D002BF343 /* ConnectionsViewController.m */,
+				99C196E818ADCD02002BF343 /* MCManager.h */,
+				99C196E918ADCD02002BF343 /* MCManager.m */,
+			);
+			name = Messaging;
+			sourceTree = "<group>";
+		};
+		99EF41A11889624F004A148F /* Shelter Locations Search */ = {
+			isa = PBXGroup;
+			children = (
+				99F208D8189AB01B003DDE7E /* SheltersLocationViewController.h */,
+				99F208D9189AB01B003DDE7E /* SheltersLocationViewController.m */,
+				99F208E0189AFB1E003DDE7E /* ResultsTableViewController.h */,
+				99F208E1189AFB1E003DDE7E /* ResultsTableViewController.m */,
+				99F208E3189AFB54003DDE7E /* ResultsTableCell.h */,
+				99F208E4189AFB54003DDE7E /* ResultsTableCell.m */,
+			);
+			name = "Shelter Locations Search";
+			sourceTree = "<group>";
+		};
+		99EF41A5188AF686004A148F /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				99C195E5189FE093002BF343 /* RSStateManager.h */,
+				99C195E4189FE093002BF343 /* RSStateManager.m */,
+				99C195E6189FE093002BF343 /* Question.h */,
+				99C195E7189FE093002BF343 /* Question.m */,
+				99C195E8189FE093002BF343 /* startupData.json */,
+				99C195E9189FE093002BF343 /* RSSurveyQuestionViewController.h */,
+				99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */,
+				99C195EB189FE093002BF343 /* RSSurveyResultsViewController.h */,
+				99C195EC189FE093002BF343 /* RSSurveyResultsViewController.m */,
+				FB6F280318A1433E00FA54DB /* QuizQuestions.xcdatamodeld */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		99F2D0DF188F5C1E00BCB3F3 /* Staying Safe */ = {
+			isa = PBXGroup;
+			children = (
+				99F2D0E2188F5CC800BCB3F3 /* StayingSafeTableViewController.h */,
+				99F2D0E3188F5CC900BCB3F3 /* StayingSafeTableViewController.m */,
+				99F2D0EB188F5F3900BCB3F3 /* StayingSafeViewController.h */,
+				99F2D0EC188F5F3900BCB3F3 /* StayingSafeViewController.m */,
+				99F2D0EE188F5F5B00BCB3F3 /* StayingSafe.h */,
+				99F2D0EF188F5F5B00BCB3F3 /* StayingSafe.m */,
+			);
+			name = "Staying Safe";
+			sourceTree = "<group>";
+		};
+		99F2D0E0188F5C5000BCB3F3 /* Tech and Domestic Violence */ = {
+			isa = PBXGroup;
+			children = (
+				99F2D0E5188F5CFD00BCB3F3 /* DVTechologyTableViewController.h */,
+				99F2D0E6188F5CFD00BCB3F3 /* DVTechologyTableViewController.m */,
+				99F2D0F11890B94900BCB3F3 /* TechSecurityViewController.h */,
+				99F2D0F21890B94900BCB3F3 /* TechSecurityViewController.m */,
+				99F2D0F41890B98E00BCB3F3 /* TechSecurity.h */,
+				99F2D0F51890B98E00BCB3F3 /* TechSecurity.m */,
+			);
+			name = "Tech and Domestic Violence";
+			sourceTree = "<group>";
+		};
+		99F2D0E1188F5C7700BCB3F3 /* Where to find Help */ = {
+			isa = PBXGroup;
+			children = (
+				99F2D0E8188F5D1B00BCB3F3 /* FindHelpTableViewController.h */,
+				99F2D0E9188F5D1B00BCB3F3 /* FindHelpTableViewController.m */,
+				99F2D0FB1891AED300BCB3F3 /* WebsitesViewController.h */,
+				99F2D0FC1891AED300BCB3F3 /* WebsitesViewController.m */,
+			);
+			name = "Where to find Help";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99562164188486CA00541044 /* The Purple PocketBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99562197188486CB00541044 /* Build configuration list for PBXNativeTarget "The Purple PocketBook" */;
+			buildPhases = (
+				F4D31A9AE0C84957BAC2B063 /* Check Pods Manifest.lock */,
+				99562161188486CA00541044 /* Sources */,
+				99562162188486CA00541044 /* Frameworks */,
+				99562163188486CA00541044 /* Resources */,
+				DE2C487E6FD1422583F06276 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Purple PocketBook";
+			productName = "The Purple PocketBook";
+			productReference = 99562165188486CA00541044 /* The Purple PocketBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99562185188486CB00541044 /* The Purple PocketBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9956219A188486CB00541044 /* Build configuration list for PBXNativeTarget "The Purple PocketBookTests" */;
+			buildPhases = (
+				99562182188486CB00541044 /* Sources */,
+				99562183188486CB00541044 /* Frameworks */,
+				99562184188486CB00541044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9956218C188486CB00541044 /* PBXTargetDependency */,
+			);
+			name = "The Purple PocketBookTests";
+			productName = "The Purple PocketBookTests";
+			productReference = 99562186188486CB00541044 /* The Purple PocketBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9956215D188486CA00541044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alicia MacBook Pro";
+				TargetAttributes = {
+					99562185188486CB00541044 = {
+						TestTargetID = 99562164188486CA00541044;
+					};
+				};
+			};
+			buildConfigurationList = 99562160188486CA00541044 /* Build configuration list for PBXProject "the purple pocketbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9956215C188486CA00541044;
+			productRefGroup = 99562166188486CA00541044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99562164188486CA00541044 /* The Purple PocketBook */,
+				99562185188486CB00541044 /* The Purple PocketBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99562163188486CA00541044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99562181188486CB00541044 /* Images.xcassets in Resources */,
+				99C196C818AD883D002BF343 /* menu@2x.png in Resources */,
+				99C196BF18AD880E002BF343 /* Family.jpg in Resources */,
+				99C196D718AD8B4D002BF343 /* ppbackground.png in Resources */,
+				99562173188486CA00541044 /* InfoPlist.strings in Resources */,
+				99C196C718AD883D002BF343 /* menu.png in Resources */,
+				99EF419D188852DE004A148F /* purple-handbag-hi.png in Resources */,
+				99EF419E188852DE004A148F /* purple-purse-hi.png in Resources */,
+				99C196D118AD88AB002BF343 /* TheLaw.jpg in Resources */,
+				99C196C918AD883D002BF343 /* MessageText.png in Resources */,
+				99C196D318AD88DA002BF343 /* MapMarker.png in Resources */,
+				99C196C118AD881C002BF343 /* information.jpg in Resources */,
+				99F208DC189AB516003DDE7E /* Main.storyboard in Resources */,
+				99C195F0189FE093002BF343 /* startupData.json in Resources */,
+				99C196CF18AD889B002BF343 /* tech.png in Resources */,
+				99C196CD18AD8889002BF343 /* Quiz.jpg in Resources */,
+				99C1962318A3F40F002BF343 /* PPocketbook.png in Resources */,
+				99C196C318AD882E002BF343 /* map.png in Resources */,
+				99EF41851885FF0B004A148F /* saffron1.jpg in Resources */,
+				99EF41871885FF14004A148F /* saffron2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99562184188486CB00541044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99562192188486CB00541044 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE2C487E6FD1422583F06276 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D31A9AE0C84957BAC2B063 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99562161188486CA00541044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F2D0E4188F5CC900BCB3F3 /* StayingSafeTableViewController.m in Sources */,
+				99F2D0F61890B98E00BCB3F3 /* TechSecurity.m in Sources */,
+				FB6F280518A1433E00FA54DB /* QuizQuestions.xcdatamodeld in Sources */,
+				995621A71885709400541044 /* DVDetailLawViewController.m in Sources */,
+				FB6F280818A14E8800FA54DB /* PPMainTableViewController.m in Sources */,
+				99F208E5189AFB54003DDE7E /* ResultsTableCell.m in Sources */,
+				99F2D0ED188F5F3900BCB3F3 /* StayingSafeViewController.m in Sources */,
+				99C196E118ADC2EC002BF343 /* TBOneViewController.m in Sources */,
+				99562179188486CA00541044 /* PPAppDelegate.m in Sources */,
+				99EF4193188829EE004A148F /* PPSuccessStoryViewController.m in Sources */,
+				99F208E2189AFB1E003DDE7E /* ResultsTableViewController.m in Sources */,
+				99F2D0EA188F5D1B00BCB3F3 /* FindHelpTableViewController.m in Sources */,
+				99F2D0F31890B94900BCB3F3 /* TechSecurityViewController.m in Sources */,
+				995621A21884947C00541044 /* PPSuccessTableViewController.m in Sources */,
+				9956219F1884945200541044 /* DVLawTableViewController.m in Sources */,
+				99C196E718ADC66D002BF343 /* ConnectionsViewController.m in Sources */,
+				99F2D0FD1891AED300BCB3F3 /* WebsitesViewController.m in Sources */,
+				99C196EA18ADCD02002BF343 /* MCManager.m in Sources */,
+				99C1962A18AC8E9E002BF343 /* SWRevealViewController.m in Sources */,
+				995621AA18857ED800541044 /* TheLaw.m in Sources */,
+				99C195F2189FE093002BF343 /* RSSurveyResultsViewController.m in Sources */,
+				99C195F1189FE093002BF343 /* RSSurveyQuestionViewController.m in Sources */,
+				99F2D0E7188F5CFD00BCB3F3 /* DVTechologyTableViewController.m in Sources */,
+				99EF419018881208004A148F /* SuccessStory.m in Sources */,
+				99C1962718AC8E8E002BF343 /* SideBarTableViewController.m in Sources */,
+				99562175188486CA00541044 /* main.m in Sources */,
+				99C195EE189FE093002BF343 /* RSStateManager.m in Sources */,
+				99C196E418ADC341002BF343 /* TBTwoViewController.m in Sources */,
+				99F208DA189AB01B003DDE7E /* SheltersLocationViewController.m in Sources */,
+				99C1960318A27AD0002BF343 /* PPMainViewController.m in Sources */,
+				99C195EF189FE093002BF343 /* Question.m in Sources */,
+				99F2D0F0188F5F5B00BCB3F3 /* StayingSafe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99562182188486CB00541044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99562194188486CB00541044 /* The_Purple_PocketBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9956218C188486CB00541044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99562164188486CA00541044 /* The Purple PocketBook */;
+			targetProxy = 9956218B188486CB00541044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99562171188486CA00541044 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99562172188486CA00541044 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99562190188486CB00541044 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99562191188486CB00541044 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99562195188486CB00541044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99562196188486CB00541044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99562198188486CB00541044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0064C3CB08477696E2A372 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
+				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99562199188486CB00541044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0064C3CB08477696E2A372 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
+				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9956219B188486CB00541044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Purple PocketBook.app/The Purple PocketBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Purple PocketBookTests/The Purple PocketBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9956219C188486CB00541044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Purple PocketBook.app/The Purple PocketBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
+				INFOPLIST_FILE = "The Purple PocketBookTests/The Purple PocketBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99562160188486CA00541044 /* Build configuration list for PBXProject "the purple pocketbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99562195188486CB00541044 /* Debug */,
+				99562196188486CB00541044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99562197188486CB00541044 /* Build configuration list for PBXNativeTarget "The Purple PocketBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99562198188486CB00541044 /* Debug */,
+				99562199188486CB00541044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9956219A188486CB00541044 /* Build configuration list for PBXNativeTarget "The Purple PocketBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9956219B188486CB00541044 /* Debug */,
+				9956219C188486CB00541044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB6F280318A1433E00FA54DB /* QuizQuestions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB6F280418A1433E00FA54DB /* QuizQuestions.xcdatamodel */,
+			);
+			currentVersion = FB6F280418A1433E00FA54DB /* QuizQuestions.xcdatamodel */;
+			name = QuizQuestions.xcdatamodeld;
+			path = "../the purple pocketbook/QuizQuestions.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9956215D188486CA00541044 /* Project object */;
+}

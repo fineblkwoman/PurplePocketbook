@@ -1,0 +1,14 @@
+
+
+[{ "questionText": "Have you stopped seeing your friends or family because of your partner's behavior?", "sortOrder": 1},
+  { "questionText": "Does your partner's behavior make you feel as if you are wrong?", "sortOrder": 2},
+  { "questionText": "Do you try to please your partner rather than yourself in order to avoid being hurt?", "sortOrder": 3},
+  { "questionText": "Does your partner keep you from going out or doing things that you want to do?", "sortOrder": 4}
+  { "questionText": "Do you feel that nothing you do is ever good enough for your partner?", "sortOrder": 5},
+  { "questionText": "Does your partner say that if you try to leave him or her, you will never see your children again?", "sortOrder": 6},
+  { "questionText": "Does your partner say that if you try to leave, he or she will kill himself or herself or you?", "sortOrder": 7},
+  { "questionText": "Do you lie to your family, friends and doctor about your bruises, cuts and scratches?", "sortOrder": 8}
+  { "questionText": "Do you get anxious or nervous when you have to relay 'bad news' to your partner?", "sortOrder": 9},
+  { "questionText": "Does your partner sometimes embarass you or criticize you in front of others?", "sortOrder": 10},
+  { "questionText": "Do you sometimes change your plans or cancel outings to avoid your partner's reaction?", "sortOrder": 11},
+  { "questionText": "Does your partner check up on what you have been doing, and not believe your answers?", "sortOrder": 12}]
