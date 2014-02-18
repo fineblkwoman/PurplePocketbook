@@ -62,6 +62,8 @@
 		99F208DC189AB516003DDE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F208DB189AB516003DDE7E /* Main.storyboard */; };
 		99F208E2189AFB1E003DDE7E /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F208E1189AFB1E003DDE7E /* ResultsTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
 		99F208E5189AFB54003DDE7E /* ResultsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F208E4189AFB54003DDE7E /* ResultsTableCell.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
+		99F2983718B3B150003F6ADB /* sample_file1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 99F2983518B3B150003F6ADB /* sample_file1.txt */; };
+		99F2983818B3B150003F6ADB /* sample_file2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 99F2983618B3B150003F6ADB /* sample_file2.txt */; };
 		99F2D0E4188F5CC900BCB3F3 /* StayingSafeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E3188F5CC900BCB3F3 /* StayingSafeTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
 		99F2D0E7188F5CFD00BCB3F3 /* DVTechologyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E6188F5CFD00BCB3F3 /* DVTechologyTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
 		99F2D0EA188F5D1B00BCB3F3 /* FindHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E9188F5D1B00BCB3F3 /* FindHelpTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc -arc"; }; };
@@ -165,6 +167,8 @@
 		99F208E1189AFB1E003DDE7E /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 		99F208E3189AFB54003DDE7E /* ResultsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableCell.h; sourceTree = "<group>"; };
 		99F208E4189AFB54003DDE7E /* ResultsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableCell.m; sourceTree = "<group>"; };
+		99F2983518B3B150003F6ADB /* sample_file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file1.txt; sourceTree = "<group>"; };
+		99F2983618B3B150003F6ADB /* sample_file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_file2.txt; sourceTree = "<group>"; };
 		99F2D0E2188F5CC800BCB3F3 /* StayingSafeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StayingSafeTableViewController.h; sourceTree = "<group>"; };
 		99F2D0E3188F5CC900BCB3F3 /* StayingSafeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StayingSafeTableViewController.m; sourceTree = "<group>"; };
 		99F2D0E5188F5CFD00BCB3F3 /* DVTechologyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTechologyTableViewController.h; sourceTree = "<group>"; };
@@ -388,6 +392,8 @@
 				99C196E618ADC66D002BF343 /* ConnectionsViewController.m */,
 				99C196E818ADCD02002BF343 /* MCManager.h */,
 				99C196E918ADCD02002BF343 /* MCManager.m */,
+				99F2983518B3B150003F6ADB /* sample_file1.txt */,
+				99F2983618B3B150003F6ADB /* sample_file2.txt */,
 			);
 			name = Messaging;
 			sourceTree = "<group>";
@@ -541,6 +547,7 @@
 				99562181188486CB00541044 /* Images.xcassets in Resources */,
 				99C196C818AD883D002BF343 /* menu@2x.png in Resources */,
 				99C196BF18AD880E002BF343 /* Family.jpg in Resources */,
+				99F2983718B3B150003F6ADB /* sample_file1.txt in Resources */,
 				99C196D718AD8B4D002BF343 /* ppbackground.png in Resources */,
 				99562173188486CA00541044 /* InfoPlist.strings in Resources */,
 				99C196C718AD883D002BF343 /* menu.png in Resources */,
@@ -558,6 +565,7 @@
 				99C196C318AD882E002BF343 /* map.png in Resources */,
 				99EF41851885FF0B004A148F /* saffron1.jpg in Resources */,
 				99EF41871885FF14004A148F /* saffron2.jpg in Resources */,
+				99F2983818B3B150003F6ADB /* sample_file2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

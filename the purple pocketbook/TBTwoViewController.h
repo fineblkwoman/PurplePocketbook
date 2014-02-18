@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TBTwoViewController : UIViewController
+@interface TBTwoViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIActionSheetDelegate>
+
+
+
+@property (weak, nonatomic) IBOutlet UITableView *tblFiles;
 
 @end
