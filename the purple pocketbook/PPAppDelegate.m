@@ -32,9 +32,6 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     
-    _mcManager = [[MCManager alloc] init];
-    
-    
     return YES;
 }
 

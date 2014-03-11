@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-#import "MCManager.h"
 
 
 @class RSStateManager;
@@ -22,7 +21,6 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
-@property (nonatomic, strong) MCManager *mcManager;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;

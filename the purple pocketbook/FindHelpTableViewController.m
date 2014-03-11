@@ -45,7 +45,7 @@
                    @"WomensLaw - Finding a Lawyer", @"The National Domestic Violence Hotline", @"HelpGuide.org", @"DomesticViolence.org", @"National Coalition Against Domestic Violence", @"Partnership Against Domestic Violence", @"The United States Department of Justice", @"Hope for Domestic Violence", nil];
     
     site = [NSArray arrayWithObjects:@"http://leavingabuse.com",
-             @"http://www.womenslaw.org/gethelp_type.php?type_name=Finding%20a%20Lawyer", @"http://www.thehotline.org", @"http://www.helpguide.org/mental/domestic_violence_abuse_types_signs_causes_effects.htm", @"http://www.domesticviolence.org",@"http://www.ncadv.org", @"http://padv.org", @"http://www.ovw.usdoj.gov/domviolence.htm", @"http://hope4dv.org/#/welcome", nil];
+             @"http://www.womenslaw.org", @"http://www.thehotline.org", @"http://www.helpguide.org/mental/domestic_violence_abuse_types_signs_causes_effects.htm", @"http://www.domesticviolence.org",@"http://www.ncadv.org", @"http://padv.org", @"http://www.ovw.usdoj.gov/domviolence.htm", @"http://hope4dv.org/#/welcome", nil];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

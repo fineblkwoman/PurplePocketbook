@@ -33,13 +33,6 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     
-    
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
-    
-    NSArray *actionButtonItems = @[shareItem];
-    self.navigationItem.rightBarButtonItems = actionButtonItems;
-    
-    
     self.DVTechSecurityLabel.text = _dvTechSecurity.techTitle;
     self.DVTechSecurityTextView.text = _dvTechSecurity.techDetail;
     

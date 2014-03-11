@@ -31,14 +31,7 @@
 
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
-    
-    
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
-    
-    NSArray *actionButtonItems = @[shareItem];
-    self.navigationItem.rightBarButtonItems = actionButtonItems;
-    
-    
+
     self.successLabel.text = _stories.title;
     self.successTextView.text = _stories.detail;
     self.successImage.image = [UIImage imageNamed:_stories.successImage];

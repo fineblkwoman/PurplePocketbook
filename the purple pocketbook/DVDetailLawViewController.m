@@ -35,12 +35,6 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
-    
-    NSArray *actionButtonItems = @[shareItem];
-    self.navigationItem.rightBarButtonItems = actionButtonItems;
-
-    
     self.DVLawLabel.text = _dvLaw.lawTitle;
     self.DVLawDetailTextView.text = _dvLaw.lawDetail;
     

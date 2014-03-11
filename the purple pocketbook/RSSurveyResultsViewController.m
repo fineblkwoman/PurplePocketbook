@@ -36,7 +36,7 @@
     
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
-    _sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
+    //_sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
     
     NSInteger score = 0;
     for( Question *question in self.stateManager.questions){
@@ -47,7 +47,7 @@
         }
     }
     
-    self.scoreLabel.text = [NSString stringWithFormat:@"%i", score];
+    self.scoreLabel.text = [NSString stringWithFormat:@"%li", (long)score];
 }
 
 - (void)didReceiveMemoryWarning

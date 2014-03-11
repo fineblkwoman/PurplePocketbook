@@ -33,16 +33,12 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     
-        self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ppbackground.png"]];
+        //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ppbackground.png"]];
     
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
-    
-    NSArray *actionButtonItems = @[shareItem];
-    self.navigationItem.rightBarButtonItems = actionButtonItems;
     
     self.StayingSafeLabel.text = _safe.stayingSafeTitle;
     self.StayingSafeTextView.text = _safe.stayingSafeDetail;
-    _StayingSafeTextView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ppbackground.png"]];
+    //_StayingSafeTextView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ppbackground.png"]];
    
 }
 

@@ -31,13 +31,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    
-    
-    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:nil];
-    
-    NSArray *actionButtonItems = @[shareItem];
-    self.navigationItem.rightBarButtonItems = actionButtonItems;
-    
+
     
     NSURL *url = [NSURL URLWithString:self.site];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
