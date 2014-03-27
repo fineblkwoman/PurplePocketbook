@@ -45,7 +45,7 @@
     NSArray* startupQuestions = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:dataPath]
                                                      options:kNilOptions
                                                        error:&err];
-    NSLog(@"Imported Questions: %@", startupQuestions);
+    //NSLog(@"Imported Questions: %@", startupQuestions);
     
     [startupQuestions enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         Question *question = [NSEntityDescription
@@ -65,7 +65,7 @@
 - (void)saveState{
     NSError *error;
     if (![moc save:&error]) {
-        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+        //NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
     }
 }
 

@@ -50,6 +50,11 @@
     self.scoreLabel.text = [NSString stringWithFormat:@"%li", (long)score];
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -1,14 +1,14 @@
 //
-//  ResultsTableCell.m
-//  The Purple PocketBook
+//  ShelterSearchTableViewCell.m
+//  the purple pocketbook
 //
-//  Created by Alicia MacBook Pro on 1/30/14.
+//  Created by Alicia MacBook Pro on 3/19/14.
 //  Copyright (c) 2014 Alicia MacBook Pro. All rights reserved.
 //
 
-#import "ResultsTableCell.h"
+#import "ShelterSearchTableViewCell.h"
 
-@implementation ResultsTableCell
+@implementation ShelterSearchTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -17,6 +17,11 @@
         // Initialization code
     }
     return self;
+}
+
+- (void)awakeFromNib
+{
+    // Initialization code
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

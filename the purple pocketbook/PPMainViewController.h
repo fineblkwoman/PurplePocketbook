@@ -12,4 +12,9 @@
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
+@property (weak, nonatomic) IBOutlet UITextView *nationalHotline;
+@property (weak, nonatomic) IBOutlet UITextView *georgiaHotline;
+
+
+
 @end

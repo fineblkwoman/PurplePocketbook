@@ -16,7 +16,6 @@
 @interface RSSurveyQuestionViewController ()
 @property (strong, nonatomic) IBOutlet UITextView *QuestionTextView;
 @property (strong, nonatomic) Question *question;
-- (void)showResults;
 @end
 
 @implementation RSSurveyQuestionViewController
@@ -75,46 +74,36 @@ RSStateManager *_stateManager;
     // Dispose of any resources that can be recreated.
 }
 
-- (void)showResults{
-    [self performSegueWithIdentifier: @"surveyResults" sender:self];
-}
-
-- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+- (void)prepareForNextQuestionWithAnswer:(NSString *)answer andSegue:(UIStoryboardSegue *)segue {
+    
     
     // here: record the response.
-    // button was tapped, determine which
-    UIButton *button = (UIButton *)sender;
-    NSString *buttonText = button.titleLabel.text;
-    [self recordResponse:buttonText];
     
-    if (self.questionIndex == self.stateManager.questions.count - 1) {
-        [self showResults];
-        // Assumed that performing a manual segue during a pending segue delegation event would cause a nested push issue but, fortunately, it does not.  No need to use performSelector:withObject:afterDelay:
-        return NO;
-    }
-    return YES;
-
-}
-
-
-
-- (void)recordResponse:(NSString *)answerText{
-    self.question.answerText = answerText;
+    self.question.answerText = answer;
     [self.stateManager saveState];
-}
-
-- (void)prepareForNextQuestionWithSegue:(UIStoryboardSegue *)segue {
-    
     
     RSSurveyQuestionViewController *nextVC = (RSSurveyQuestionViewController *)segue.destinationViewController;
     nextVC.questionIndex = ++self.questionIndex;
     nextVC.stateManager = self.stateManager;
     
+    if (nextVC.questionIndex == self.stateManager.questions.count) {
+        
+        // this was the last question, present the results
+        nextVC.questionIndex = 0;
+        nextVC.stateManager = nil;
+        
+        [self performSegueWithIdentifier: @"surveyResults" sender:self];
+        
+    }
+
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if( [segue.identifier compare:@"surveyResults"] != NSOrderedSame ){
-        [self prepareForNextQuestionWithSegue:segue];
+        // button was tapped, determine which
+        UIButton *button = (UIButton *)sender;
+        NSString *buttonText = button.titleLabel.text;
+        [self prepareForNextQuestionWithAnswer:buttonText andSegue:segue];
     }else{
         RSSurveyResultsViewController *nextVC = (RSSurveyResultsViewController *)segue.destinationViewController;
         nextVC.stateManager = self.stateManager;
