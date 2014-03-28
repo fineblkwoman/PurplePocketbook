@@ -26,13 +26,11 @@
 		99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956219E1884945200541044 /* DVLawTableViewController.m */; };
 		99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A61885709400541044 /* DVDetailLawViewController.m */; };
 		99AADE4318D93F3F00521AEC /* TheLaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A918857ED800541044 /* TheLaw.m */; };
-		99AADE4418D93F4700521AEC /* RSStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195E4189FE093002BF343 /* RSStateManager.m */; };
 		99AADE4518D93F5C00521AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99562174188486CA00541044 /* main.m */; };
 		99AADE4618D93F6600521AEC /* RSSurveyQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */; };
 		99AADE4718D93F6E00521AEC /* RSSurveyResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195EC189FE093002BF343 /* RSSurveyResultsViewController.m */; };
 		99AADE4818D93F7700521AEC /* DVTechologyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E6188F5CFD00BCB3F3 /* DVTechologyTableViewController.m */; };
 		99AADE4918D93F8100521AEC /* TechSecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0F21890B94900BCB3F3 /* TechSecurityViewController.m */; };
-		99AADE4A18D93F8A00521AEC /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C195E7189FE093002BF343 /* Question.m */; };
 		99AADE4B18D93F9000521AEC /* PPSuccessTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A11884947C00541044 /* PPSuccessTableViewController.m */; };
 		99AADE4C18D93F9A00521AEC /* TechSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0F51890B98E00BCB3F3 /* TechSecurity.m */; };
 		99AADE4D18D93FA500521AEC /* PPSuccessStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EF4192188829EE004A148F /* PPSuccessStoryViewController.m */; };
@@ -45,7 +43,6 @@
 		99AADE5C18D969E000521AEC /* StayingSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0EF188F5F5B00BCB3F3 /* StayingSafe.m */; };
 		99AADE5F18E1FC4C00521AEC /* Cities.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AADE5E18E1FC4C00521AEC /* Cities.m */; };
 		99C195C2189FB21C002BF343 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C195C1189FB21C002BF343 /* CoreData.framework */; };
-		99C195F0189FE093002BF343 /* startupData.json in Resources */ = {isa = PBXBuildFile; fileRef = 99C195E8189FE093002BF343 /* startupData.json */; };
 		99C1962318A3F40F002BF343 /* PPocketbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C1962218A3F40F002BF343 /* PPocketbook.png */; };
 		99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C1962B18AC9484002BF343 /* QuartzCore.framework */; };
 		99C196BF18AD880E002BF343 /* Family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99C196BE18AD880E002BF343 /* Family.jpg */; };
@@ -111,11 +108,6 @@
 		99AADE5D18E1FC4C00521AEC /* Cities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cities.h; path = "the purple pocketbook/Cities.h"; sourceTree = SOURCE_ROOT; };
 		99AADE5E18E1FC4C00521AEC /* Cities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cities.m; path = "the purple pocketbook/Cities.m"; sourceTree = SOURCE_ROOT; };
 		99C195C1189FB21C002BF343 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		99C195E4189FE093002BF343 /* RSStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSStateManager.m; sourceTree = "<group>"; };
-		99C195E5189FE093002BF343 /* RSStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSStateManager.h; sourceTree = "<group>"; };
-		99C195E6189FE093002BF343 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
-		99C195E7189FE093002BF343 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		99C195E8189FE093002BF343 /* startupData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startupData.json; sourceTree = "<group>"; };
 		99C195E9189FE093002BF343 /* RSSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSurveyQuestionViewController.h; sourceTree = "<group>"; };
 		99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSurveyQuestionViewController.m; sourceTree = "<group>"; };
 		99C195EB189FE093002BF343 /* RSSurveyResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSurveyResultsViewController.h; sourceTree = "<group>"; };
@@ -167,7 +159,6 @@
 		99F2D0F51890B98E00BCB3F3 /* TechSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechSecurity.m; sourceTree = "<group>"; };
 		99F2D0FB1891AED300BCB3F3 /* WebsitesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsitesViewController.h; sourceTree = "<group>"; };
 		99F2D0FC1891AED300BCB3F3 /* WebsitesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsitesViewController.m; sourceTree = "<group>"; };
-		FB6F280418A1433E00FA54DB /* QuizQuestions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuizQuestions.xcdatamodel; sourceTree = "<group>"; };
 		FB6F280618A14E8800FA54DB /* PPMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPMainTableViewController.h; path = "the purple pocketbook/PPMainTableViewController.h"; sourceTree = SOURCE_ROOT; };
 		FB6F280718A14E8800FA54DB /* PPMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPMainTableViewController.m; path = "the purple pocketbook/PPMainTableViewController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -376,16 +367,10 @@
 		99EF41A5188AF686004A148F /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				99C195E5189FE093002BF343 /* RSStateManager.h */,
-				99C195E4189FE093002BF343 /* RSStateManager.m */,
-				99C195E6189FE093002BF343 /* Question.h */,
-				99C195E7189FE093002BF343 /* Question.m */,
-				99C195E8189FE093002BF343 /* startupData.json */,
 				99C195E9189FE093002BF343 /* RSSurveyQuestionViewController.h */,
 				99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */,
 				99C195EB189FE093002BF343 /* RSSurveyResultsViewController.h */,
 				99C195EC189FE093002BF343 /* RSSurveyResultsViewController.m */,
-				FB6F280318A1433E00FA54DB /* QuizQuestions.xcdatamodeld */,
 			);
 			name = Quiz;
 			sourceTree = "<group>";
@@ -520,7 +505,6 @@
 				99C196D318AD88DA002BF343 /* MapMarker.png in Resources */,
 				99C196C118AD881C002BF343 /* information.jpg in Resources */,
 				99F208DC189AB516003DDE7E /* Main.storyboard in Resources */,
-				99C195F0189FE093002BF343 /* startupData.json in Resources */,
 				99C196CF18AD889B002BF343 /* tech.png in Resources */,
 				99C196CD18AD8889002BF343 /* Quiz.jpg in Resources */,
 				99C1962318A3F40F002BF343 /* PPocketbook.png in Resources */,
@@ -557,13 +541,11 @@
 				99AADE4D18D93FA500521AEC /* PPSuccessStoryViewController.m in Sources */,
 				99AADE4C18D93F9A00521AEC /* TechSecurity.m in Sources */,
 				99AADE4B18D93F9000521AEC /* PPSuccessTableViewController.m in Sources */,
-				99AADE4A18D93F8A00521AEC /* Question.m in Sources */,
 				99AADE4918D93F8100521AEC /* TechSecurityViewController.m in Sources */,
 				99AADE4818D93F7700521AEC /* DVTechologyTableViewController.m in Sources */,
 				99AADE4718D93F6E00521AEC /* RSSurveyResultsViewController.m in Sources */,
 				99AADE4618D93F6600521AEC /* RSSurveyQuestionViewController.m in Sources */,
 				99AADE4518D93F5C00521AEC /* main.m in Sources */,
-				99AADE4418D93F4700521AEC /* RSStateManager.m in Sources */,
 				99AADE4318D93F3F00521AEC /* TheLaw.m in Sources */,
 				99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */,
 				99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */,
@@ -791,20 +773,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		FB6F280318A1433E00FA54DB /* QuizQuestions.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FB6F280418A1433E00FA54DB /* QuizQuestions.xcdatamodel */,
-			);
-			currentVersion = FB6F280418A1433E00FA54DB /* QuizQuestions.xcdatamodel */;
-			name = QuizQuestions.xcdatamodeld;
-			path = "../the purple pocketbook/QuizQuestions.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9956215D188486CA00541044 /* Project object */;
 }

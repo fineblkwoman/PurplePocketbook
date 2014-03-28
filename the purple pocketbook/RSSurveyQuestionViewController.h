@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RSStateManager.h"
 
 @interface RSSurveyQuestionViewController : UIViewController
-@property(nonatomic) NSInteger questionIndex;
-@property(strong,nonatomic) RSStateManager  *stateManager;
+@property (weak, nonatomic) IBOutlet UITextView *questionTextBox;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+- (IBAction)answerButtonClicked:(id)sender;
 
 @end

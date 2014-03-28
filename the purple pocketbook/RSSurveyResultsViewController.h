@@ -7,13 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RSStateManager.h"
 
 @interface RSSurveyResultsViewController : UIViewController
 
-@property(strong,nonatomic) RSStateManager  *stateManager;
+@property NSUInteger score;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
-
-- (IBAction)quitQuiz:(id)sender;
 @end

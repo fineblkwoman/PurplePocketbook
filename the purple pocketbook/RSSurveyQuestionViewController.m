@@ -11,15 +11,16 @@
 #import "SWRevealViewController.h"
 #import "PPAppDelegate.h"
 
-#import "Question.h"
-
 @interface RSSurveyQuestionViewController ()
-@property (strong, nonatomic) IBOutlet UITextView *QuestionTextView;
-@property (strong, nonatomic) Question *question;
+@property NSUInteger score;
+@property NSUInteger index;
+
+@property NSArray *questions;
+
 @end
 
 @implementation RSSurveyQuestionViewController
-@synthesize questionIndex;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,42 +31,28 @@
     return self;
 }
 
-
-RSStateManager *_stateManager;
-- (RSStateManager *)stateManager{
-    if (_stateManager == nil) {
-        // I'm not a fan of making the view controller aware of, and dependent on, the app delegate.
-        // But in the interest of making it work witout major changes, we'll grab the moc from the app delegate
-        
-        PPAppDelegate *appDelegate = (PPAppDelegate *)[[UIApplication sharedApplication] delegate];
-        _stateManager = [[RSStateManager alloc] initWithManagedObjectContext:appDelegate.managedObjectContext];
-        
-        // check whether the data has been loaded
-        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-        if (![defaults boolForKey:@"dataInitialized"]){
-            // delegate responsibility for loading data to the state manager
-            [_stateManager populateInitialData];
-            [defaults setBool:YES forKey:@"dataInitialized"];
-            [defaults synchronize];
-        }
-    }
-    return _stateManager;
+- (void)viewWillAppear:(BOOL)animated {
+    self.questions = @[@"Have you stopped seeing your friends or family because of your partner's behavior?",
+                       @"Does your partner's behavior make you feel as if you are wrong?",
+                       @"Do you try to please your partner rather than yourself in order to avoid being hurt?",
+                       @"Does your partner keep you from going out or doing things that you want to do?",
+                       @"Do you feel that nothing you do is ever good enough for your partner?",
+                       @"Does your partner say that if you try to leave him or her, you will never see your children again?",
+                       @"Does your partner say that if you try to leave, he or she will kill himself or herself or you?",
+                       @"Do you lie to your family, friends and doctor about your bruises, cuts and scratches?",
+                       @"Do you get anxious or nervous when you have to relay 'bad news' to your partner?",
+                       @"Does your partner sometimes embarass you or criticize you in front of others?",
+                       @"Do you sometimes change your plans or cancel outings to avoid your partner's reaction?",
+                       @"Does your partner check up on what you have been doing, and not believe your answers?"];
+    
+	self.questionTextBox.text = [self.questions objectAtIndex:0];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
-    //_sidebarButton.tintColor = [UIColor colorWithWhite:0.96f alpha:0.2f];
-  
-    
-    // load the current question
-    self.question = [self.stateManager.questions objectAtIndex:self.questionIndex];
-    // present the question text
-    self.QuestionTextView.text = self.question.questionText;
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,40 +61,30 @@ RSStateManager *_stateManager;
     // Dispose of any resources that can be recreated.
 }
 
-- (void)prepareForNextQuestionWithAnswer:(NSString *)answer andSegue:(UIStoryboardSegue *)segue {
-    
-    
-    // here: record the response.
-    
-    self.question.answerText = answer;
-    [self.stateManager saveState];
-    
-    RSSurveyQuestionViewController *nextVC = (RSSurveyQuestionViewController *)segue.destinationViewController;
-    nextVC.questionIndex = ++self.questionIndex;
-    nextVC.stateManager = self.stateManager;
-    
-    if (nextVC.questionIndex == self.stateManager.questions.count) {
-        
-        // this was the last question, present the results
-        nextVC.questionIndex = 0;
-        nextVC.stateManager = nil;
-        
-        [self performSegueWithIdentifier: @"surveyResults" sender:self];
-        
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if( [segue.identifier isEqualToString:@"surveyResults"]){
+        RSSurveyResultsViewController *nextVC = (RSSurveyResultsViewController *)segue.destinationViewController;
+        //nextVC.stateManager = self.stateManager;
+        nextVC.score = self.score;
     }
 
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if( [segue.identifier compare:@"surveyResults"] != NSOrderedSame ){
-        // button was tapped, determine which
-        UIButton *button = (UIButton *)sender;
-        NSString *buttonText = button.titleLabel.text;
-        [self prepareForNextQuestionWithAnswer:buttonText andSegue:segue];
-    }else{
-        RSSurveyResultsViewController *nextVC = (RSSurveyResultsViewController *)segue.destinationViewController;
-        nextVC.stateManager = self.stateManager;
+- (IBAction)answerButtonClicked:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    if ([button.titleLabel.text isEqualToString:@"Sometimes"]) {
+        self.score += 1;
+        
+    } else if ([button.titleLabel.text isEqualToString:@"Regularly"]) {
+        self.score += 2;
     }
-
+    
+    if (self.index < 11) {
+        self.index +=1;
+        self.questionTextBox.text = [self.questions objectAtIndex:self.index];
+    } else {
+        [self performSegueWithIdentifier:@"surveyResults" sender:self];
+    }
+    
 }
 @end
