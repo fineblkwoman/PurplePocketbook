@@ -32,13 +32,8 @@
 
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
-    
-        //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ppbackground.png"]];
-    
-    
     self.StayingSafeLabel.text = _safe.stayingSafeTitle;
     self.StayingSafeTextView.text = _safe.stayingSafeDetail;
-    //_StayingSafeTextView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"ppbackground.png"]];
    
 }
 

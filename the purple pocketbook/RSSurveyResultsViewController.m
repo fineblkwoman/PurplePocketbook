@@ -26,7 +26,7 @@
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
     
-    self.scoreLabel.text = [NSString stringWithFormat:@"%d", self.score];
+    self.scoreLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.score];
 }
 - (void)didReceiveMemoryWarning
 {

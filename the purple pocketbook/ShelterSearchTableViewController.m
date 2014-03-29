@@ -281,15 +281,7 @@
     city45.hotlineNumber = @"(770) 586-0927";
     
     cities = [NSArray arrayWithObjects:city0, city1, city2, city3, city4, city5, city6, city7, city8, city9, city10, city11, city12, city13, city14, city15, city16, city17, city18, city19, city20, city21, city22, city23, city24, city25, city26, city27, city28, city29, city30, city31, city32, city33, city34, city35, city36, city37, city38, city39, city40, city41, city42, city43, city44, city45, nil];
-    
-    
-    
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -315,7 +307,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 112;
+    return 120;
 }
 
 

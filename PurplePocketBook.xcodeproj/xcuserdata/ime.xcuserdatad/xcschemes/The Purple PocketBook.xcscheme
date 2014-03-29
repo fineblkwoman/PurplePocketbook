@@ -17,7 +17,7 @@
                BlueprintIdentifier = "99562164188486CA00541044"
                BuildableName = "The Purple PocketBook.app"
                BlueprintName = "The Purple PocketBook"
-               ReferencedContainer = "container:the purple pocketbook.xcodeproj">
+               ReferencedContainer = "container:PurplePocketBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "99562185188486CB00541044"
                BuildableName = "The Purple PocketBookTests.xctest"
                BlueprintName = "The Purple PocketBookTests"
-               ReferencedContainer = "container:the purple pocketbook.xcodeproj">
+               ReferencedContainer = "container:PurplePocketBook.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "99562164188486CA00541044"
             BuildableName = "The Purple PocketBook.app"
             BlueprintName = "The Purple PocketBook"
-            ReferencedContainer = "container:the purple pocketbook.xcodeproj">
+            ReferencedContainer = "container:PurplePocketBook.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "99562164188486CA00541044"
             BuildableName = "The Purple PocketBook.app"
             BlueprintName = "The Purple PocketBook"
-            ReferencedContainer = "container:the purple pocketbook.xcodeproj">
+            ReferencedContainer = "container:PurplePocketBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "99562164188486CA00541044"
             BuildableName = "The Purple PocketBook.app"
             BlueprintName = "The Purple PocketBook"
-            ReferencedContainer = "container:the purple pocketbook.xcodeproj">
+            ReferencedContainer = "container:PurplePocketBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
