@@ -17,6 +17,30 @@
       "idiom" : "iphone",
       "filename" : "purplepocketbook60.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "iPadpurplepocketbook72.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "72x72",
+      "idiom" : "ipad",
+      "filename" : "iPadpurplepocketbook144.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "ipadpurplepocketbook76.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "iPadpurplepocketbook152.png",
+      "scale" : "2x"
     }
   ],
   "info" : {
