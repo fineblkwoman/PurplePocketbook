@@ -3,31 +3,61 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "purplepocketbook29.png",
+      "filename" : "purplepocketbookhandbag58.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "purplepocketbook40.png",
+      "filename" : "purplepocketbookhandbag80.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "purplepocketbook60.png",
+      "filename" : "purplepocketbookhandbag120.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "40x40",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "40x40",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "50x50",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "50x50",
       "scale" : "2x"
     },
     {
       "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "iPadpurplepocketbook72.png",
+      "filename" : "purplepocketbookhandbag72.png",
       "scale" : "1x"
     },
     {
       "size" : "72x72",
       "idiom" : "ipad",
-      "filename" : "iPadpurplepocketbook144.png",
+      "filename" : "purplepocketbookhandbag144-1.png",
       "scale" : "2x"
     },
     {

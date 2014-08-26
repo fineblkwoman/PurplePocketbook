@@ -35,7 +35,8 @@
     
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
-    _menuItems = @[@"purple pocketbook", @"shelter search", @"the law", @"staying safe", @"quiz", @"technology", @"success stories", @"where to find help"];
+    _menuItems = @[@"purple pocketbook", @"shelter search", @"the law", @"staying safe", @"quiz", @"technology", @"where to find help", @"community sponsors"];
+    
 }
 
 - (void) prepareForSegue: (UIStoryboardSegue *) segue sender: (id) sender
@@ -84,8 +85,12 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *CellIdentifier = [self.menuItems objectAtIndex:indexPath.row];
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
+    if (cell==nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        
+    }
     return cell;
 }
 

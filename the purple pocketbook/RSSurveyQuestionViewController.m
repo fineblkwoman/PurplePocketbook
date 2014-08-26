@@ -32,18 +32,18 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    self.questions = @[@"Have you stopped seeing your friends or family because of your partner's behavior?",
-                       @"Does your partner's behavior make you feel as if you are wrong?",
-                       @"Do you try to please your partner rather than yourself in order to avoid being hurt?",
-                       @"Does your partner keep you from going out or doing things that you want to do?",
-                       @"Do you feel that nothing you do is ever good enough for your partner?",
-                       @"Does your partner say that if you try to leave him or her, you will never see your children again?",
-                       @"Does your partner say that if you try to leave, he or she will kill himself or herself or you?",
-                       @"Do you lie to your family, friends and doctor about your bruises, cuts and scratches?",
-                       @"Do you get anxious or nervous when you have to relay 'bad news' to your partner?",
-                       @"Does your partner sometimes embarass you or criticize you in front of others?",
-                       @"Do you sometimes change your plans or cancel outings to avoid your partner's reaction?",
-                       @"Does your partner check up on what you have been doing, and not believe your answers?"];
+    self.questions = @[NSLocalizedString(@"Has he/she ever used a weapon against you/threatened you with a weapon?", @"question1"),
+                       NSLocalizedString(@"Does your partner's behavior make you feel as if you are wrong?", @"question2"),
+                       NSLocalizedString(@"Do you try to please your partner rather than yourself in order to avoid being hurt?", @"question3"),
+                       NSLocalizedString(@"Does your partner keep you from going out or doing things that you want to do?",@"question4"),
+                       NSLocalizedString(@"Does he/she have a gun or can he/she get one easily?",@"question5"),
+                       NSLocalizedString(@"Is he/she violently or constantly jealous or does he/she control most of your daily activities?",@"question6"),
+                       NSLocalizedString(@"Does your partner say that if you try to leave, he or she will kill himself or herself or you?",@"question7"),
+                       NSLocalizedString(@"Do you lie to your family, friends and doctor about your bruises, cuts and scratches?",@"question8"),
+                       NSLocalizedString(@"Have you left him/her or separated after living together or being married?",@"question9"),
+                       NSLocalizedString(@"Does your partner sometimes embarass you or criticize you in front of others?",@"question10"),
+                       NSLocalizedString(@"Does he/she follow or spy on your or leave threatening messages?",@"question11"),
+                       NSLocalizedString(@"Does your partner check up on what you have been doing, and not believe your answers?",@"question12")];
     
 	self.questionTextBox.text = [self.questions objectAtIndex:0];
 }

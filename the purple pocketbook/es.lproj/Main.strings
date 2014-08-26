@@ -1,0 +1,132 @@
+
+/* Class = "IBUITextView"; text = "I am a question"; ObjectID = "2Am-Mg-bjA"; */
+"2Am-Mg-bjA.text" = "I am a question";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "3Bd-QK-0lf"; */
+"3Bd-QK-0lf.text" = "Label";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "3F2-vt-eiM"; */
+"3F2-vt-eiM.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "6mD-71-gXP"; */
+"6mD-71-gXP.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "6rf-xg-z2c"; */
+"6rf-xg-z2c.text" = "Label";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "7YJ-5h-q2l"; */
+"7YJ-5h-q2l.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUITextView"; text = "(888) 888-8888"; ObjectID = "9Nc-OD-aq4"; */
+"9Nc-OD-aq4.text" = "(888) 888-8888";
+
+/* Class = "IBUIViewController"; title = "Main View Controller"; ObjectID = "9pf-QL-dFy"; */
+"9pf-QL-dFy.title" = "Main View Controller";
+
+/* Class = "IBUITextView"; text = "1-800-334-2836"; ObjectID = "Akh-kS-Bcm"; */
+"Akh-kS-Bcm.text" = "1-800-334-2836";
+
+/* Class = "IBUILabel"; text = "Domestic Violence Screening Quiz"; ObjectID = "BXF-Ps-Gdu"; */
+"BXF-Ps-Gdu.text" = "Violencia Doméstica Screening Test";
+
+/* Class = "IBUILabel"; text = "Quiz"; ObjectID = "Cul-zz-FeA"; */
+"Cul-zz-FeA.text" = "Cuestionario";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "EVR-1E-1ti"; */
+"EVR-1E-1ti.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "The Law"; ObjectID = "FRt-tQ-X3Z"; */
+"FRt-tQ-X3Z.text" = "The Law";
+
+/* Class = "IBUILabel"; text = "Scores for this domestic violence screening tool range from 0-24. A score of greater than 10 is considered positive; meaning you should be concerned about being in an abusive relationship."; ObjectID = "HX1-MX-bC0"; */
+"HX1-MX-bC0.text" = "Los puntajes para este doméstica rango herramienta de detección de violencia 0-24. Una puntuación mayor de 10 se considera positivo; lo que significa que debe estar preocupado por estar en una relación abusiva.";
+
+/* Class = "IBUIButton"; normalTitle = "Start"; ObjectID = "J6o-WJ-uvB"; */
+"J6o-WJ-uvB.normalTitle" = "Inicio";
+
+/* Class = "IBUINavigationItem"; title = "Purple Pocketbook"; ObjectID = "KZa-tA-EeN"; */
+"KZa-tA-EeN.title" = "púrpura de bolsillo";
+
+/* Class = "IBUILabel"; text = "Score:"; ObjectID = "Mmg-XQ-hii"; */
+"Mmg-XQ-hii.text" = "Puntuación:";
+
+/* Class = "IBUILabel"; text = "Shelter Search"; ObjectID = "NJb-7e-LTB"; */
+"NJb-7e-LTB.text" = "Refugio Buscar";
+
+/* Class = "IBUIButton"; normalTitle = "Sometimes"; ObjectID = "NZF-q0-xra"; */
+"NZF-q0-xra.normalTitle" = "A veces";
+
+/* Class = "IBUIButton"; normalTitle = "Regularly"; ObjectID = "OAv-Dz-f5n"; */
+"OAv-Dz-f5n.normalTitle" = "regularmente";
+
+/* Class = "IBUILabel"; text = "Georgia Hotline"; ObjectID = "OaY-G5-IMq"; */
+"OaY-G5-IMq.text" = "Hotline Georgia";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "QTk-eK-6qO"; */
+"QTk-eK-6qO.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Staying Safe"; ObjectID = "RGK-9a-7di"; */
+"RGK-9a-7di.text" = "Manténgase a salvo";
+
+/* Class = "IBUITextView"; text = "1-800-799-7233"; ObjectID = "VQW-Cf-vR2"; */
+"VQW-Cf-vR2.text" = "1-800-799-7233";
+
+/* Class = "IBUILabel"; text = "Where to find help"; ObjectID = "WgC-IS-zuo"; */
+"WgC-IS-zuo.text" = "Dónde encontrar ayuda";
+
+/* Class = "IBUILabel"; text = "CityName"; ObjectID = "YMo-Aj-f6g"; */
+"YMo-Aj-f6g.text" = "CityName";
+
+/* Class = "IBUITableViewController"; title = "Sidebar"; ObjectID = "YnG-8d-Y95"; */
+"YnG-8d-Y95.title" = "Sidebar";
+
+/* Class = "IBUILabel"; text = "Purple Pocketbook"; ObjectID = "c0J-fK-8j1"; */
+"c0J-fK-8j1.text" = "púrpura de bolsillo";
+
+/* Class = "IBUILabel"; text = "Technology"; ObjectID = "dR7-IB-IwG"; */
+"dR7-IB-IwG.text" = "Tecnología";
+
+/* Class = "IBUILabel"; text = "Crisis Line"; ObjectID = "f0M-4z-O3W"; */
+"f0M-4z-O3W.text" = "Línea de Crisis";
+
+/* Class = "IBUIButton"; normalTitle = "No"; ObjectID = "haH-YM-5zk"; */
+"haH-YM-5zk.normalTitle" = "No";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "jSE-uJ-kXg"; */
+"jSE-uJ-kXg.text" = "Label";
+
+/* Class = "IBUISearchBar"; placeholder = "Search"; ObjectID = "jsg-is-mLn"; */
+"jsg-is-mLn.placeholder" = "Búsqueda";
+
+/* Class = "IBUILabel"; text = "This is a screening measure to help you determine whether you might be involved in an abusive relationship that needs attention. This screening measure is not designed to make a diagnosis or take the place of a professional diagnosis or consultation. For each item, indicate the extent to which it is true, by checking the appropriate box next to the item.\n"; ObjectID = "kX9-Gb-mlJ"; */
+"kX9-Gb-mlJ.text" = "Esta es una medida de detección para ayudarle a determinar si usted puede ser involucrado en una relación abusiva que necesita atención. Esta medida de cribado no está diseñado para hacer un diagnóstico o tomar el lugar de un diagnóstico profesional o consulta. Para cada elemento, indique en qué medida es cierto, marcando la casilla correspondiente junto al elemento.\n";
+
+/* Class = "IBUILabel"; text = "ShelterName"; ObjectID = "ngE-sd-7yP"; */
+"ngE-sd-7yP.text" = "ShelterName";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "noU-sN-0IC"; */
+"noU-sN-0IC.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "Community Sponsors"; ObjectID = "odk-kU-B0L"; */
+"odk-kU-B0L.text" = "Los patrocinadores de la Comunidad";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "rjd-b5-rCA"; */
+"rjd-b5-rCA.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Donations"; ObjectID = "teP-cg-gSh"; */
+"teP-cg-gSh.text" = "Donaciones";
+
+/* Class = "IBUIButton"; normalTitle = "Shelter Search"; ObjectID = "tl8-st-p2B"; */
+"tl8-st-p2B.normalTitle" = "Refugio Buscar";
+
+/* Class = "IBUILabel"; text = "No matter what your score, if you have a concern about you or your children’s safety or any relationship you are in, you might find it helpful to join a support group, talk with someone at your local battered women’s shelter or women’s center. Call your county social services or police station. You can also consult with your doctor or therapist. The important thing is to seek help."; ObjectID = "w4V-u4-c44"; */
+"w4V-u4-c44.text" = "No importa cuál sea su puntaje, si usted tiene alguna preocupación acerca de usted o la seguridad de sus hijos o cualquier relación que se encuentre, puede que le resulte útil unirse a un grupo de apoyo, hable con alguien en un refugio para mujeres maltratadas locales o centro de mujeres. Llame a sus servicios sociales del condado o la estación de policía. También puede consultar con su médico o terapeuta. Lo importante es buscar ayuda.";
+
+/* Class = "IBUILabel"; text = "National Hotline"; ObjectID = "we0-n0-M3D"; */
+"we0-n0-M3D.text" = "Línea Nacional";
+
+/* Class = "IBUILabel"; text = "Domestic Violence Screening Quiz"; ObjectID = "xVR-sG-Mrt"; */
+"xVR-sG-Mrt.text" = "Violencia Doméstica Screening Test";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "yxU-8j-4pg"; */
+"yxU-8j-4pg.text" = "Label";
