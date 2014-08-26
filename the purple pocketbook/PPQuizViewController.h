@@ -10,4 +10,7 @@
 
 @interface PPQuizViewController : UIViewController
 
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
 @end

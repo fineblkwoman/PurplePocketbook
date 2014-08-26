@@ -7,6 +7,7 @@
 //
 
 #import "PPQuizViewController.h"
+#import "SWRevealViewController.h"
 
 @interface PPQuizViewController ()
 
@@ -27,6 +28,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    _sidebarButton.target = self.revealViewController;
+    _sidebarButton.action = @selector(revealToggle:);
 }
 
 - (void)didReceiveMemoryWarning
