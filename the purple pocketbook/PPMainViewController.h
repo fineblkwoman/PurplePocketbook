@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PPMainViewController : UIViewController
+@interface PPMainViewController : UIViewController <UIAccelerometerDelegate> 
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 

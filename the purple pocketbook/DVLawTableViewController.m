@@ -39,6 +39,7 @@
 
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
+    
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
     
@@ -193,6 +194,7 @@
     return [theLaw count];
 }
 
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
@@ -206,10 +208,10 @@
     cell.textLabel.numberOfLines=0;
     cell.textLabel.font=[UIFont fontWithName:@"Georgia-Bold" size:14];
 
-    // Configure the cell...
     
     return cell;
 }
+
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

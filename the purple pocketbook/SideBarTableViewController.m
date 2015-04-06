@@ -35,7 +35,7 @@
     
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
-    _menuItems = @[@"purple pocketbook", @"shelter search", @"the law", @"staying safe", @"quiz", @"technology", @"where to find help", @"community sponsors"];
+    _menuItems = @[@"purple pocketbook", @"shelter search", @"the law", @"unemployment", @"immigration", @"staying safe", @"quiz", @"technology", @"where to find help", @"community sponsors"];
     
 }
 

@@ -43,7 +43,6 @@
     
     findingHelp = [NSArray arrayWithObjects:
                    NSLocalizedString(@"Georgia Victim Services Programs", @"Georgia Victim Services Programs"),
-                   NSLocalizedString(@"Partnership Against Domestic Violence", @"Partnership Against Domestic Violence"),
                    NSLocalizedString(@"WomensLaw - Finding a Lawyer", @"WomensLaw - Finding a Lawyer"),
                    NSLocalizedString(@"The National Domestic Violence Hotline", @"The National Domestic Violence Hotline"),
                    NSLocalizedString(@"LeavingAbuse", @"LeavingAbuse"),
@@ -55,7 +54,6 @@
     
     site = [NSArray arrayWithObjects:
             @"http://cjcc.georgia.gov/victim-services-programs",
-            @"http://padv.org",
             @"http://www.womenslaw.org",
             @"http://www.thehotline.org",
             @"http://leavingabuse.com",
@@ -160,14 +158,10 @@
                 break;
                 
             case 7:
-                webViewController.site = @"http://padv.org";
-                break;
-                
-            case 8:
                 webViewController.site = @"http://www.ovw.usdoj.gov/domviolence.htm";
                 break;
                 
-            case 9:
+            case 8:
                 webViewController.site = @"http://hope4dv.org/#/welcome";
                 break;
                 

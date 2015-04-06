@@ -56,231 +56,251 @@
     city0.hotlineNumber = @"(229) 439-7065";
     
     Cities *city1 = [Cities new];
-    city1.cityName = @"Athens";
-    city1.shelterName = @"Project Safe, Inc.";
-    city1.hotlineNumber = @"(706) 543-3331";
+    city1.cityName = @"Acworth";
+    city1.shelterName = @"Ser Familia";
+    city1.hotlineNumber = @"(678) 363-3079";
     
     Cities *city2 = [Cities new];
-    city2.cityName = @"Atlanta";
-    city2.shelterName = @"Partnership Against Domestic Violence, Inc.";
-    city2.hotlineNumber = @"(404) 873-1766";
+    city2.cityName = @"Athens";
+    city2.shelterName = @"Project Safe, Inc.";
+    city2.hotlineNumber = @"(706) 543-3331";
     
     Cities *city3 = [Cities new];
-    city3.cityName = @"Augusta";
-    city3.shelterName = @"Safe Homes of Augusta, Inc.";
-    city3.hotlineNumber = @"(706) 736-2499";
+    city3.cityName = @"Atlanta";
+    city3.shelterName = @"Partnership Against Domestic Violence, Inc.";
+    city3.hotlineNumber = @"(404) 873-1766";
     
     Cities *city4 = [Cities new];
-    city4.cityName = @"Blairsville";
-    city4.shelterName = @"Support in Abusive Family Emergencies, Inc.";
-    city4.hotlineNumber = @"(706) 379-3000";
+    city4.cityName = @"Atlanta";
+    city4.shelterName = @"Ahimsa House - Help People and Pets";
+    city4.hotlineNumber = @"404-452-6248";
     
     Cities *city5 = [Cities new];
-    city5.cityName = @"Blue Ridge";
-    city5.shelterName = @"North Georgia Mountain Crisis";
-    city5.hotlineNumber = @"(706) 632-8400";
+    city5.cityName = @"Atlanta";
+    city5.shelterName = @"Raksha Inc.";
+    city5.hotlineNumber = @"(404) 842-0725";
     
     Cities *city6 = [Cities new];
-    city6.cityName = @"Brunswick";
-    city6.shelterName = @"Glynn Community Crisis";
-    city6.hotlineNumber = @"(912) 264-4357";
+    city6.cityName = @"Augusta";
+    city6.shelterName = @"Safe Homes of Augusta, Inc.";
+    city6.hotlineNumber = @"(706) 736-2499";
     
     Cities *city7 = [Cities new];
-    city7.cityName = @"Canton";
-    city7.shelterName = @"Cherokee Family Violence";
-    city7.hotlineNumber = @"(770) 479-1703";
+    city7.cityName = @"Blairsville";
+    city7.shelterName = @"Support in Abusive Family Emergencies, Inc.";
+    city7.hotlineNumber = @"(706) 379-3000";
     
     Cities *city8 = [Cities new];
-    city8.cityName = @"Carrollton";
-    city8.shelterName = @"Carroll County Emergency Shelter, Inc.";
-    city8.hotlineNumber = @"(770) 834-1141";
+    city8.cityName = @"Blue Ridge";
+    city8.shelterName = @"North Georgia Mountain Crisis";
+    city8.hotlineNumber = @"(706) 632-8400";
     
     Cities *city9 = [Cities new];
-    city9.cityName = @"Cartersville";
-    city9.shelterName = @"Christian League for Battered Women, Inc. (Tranquility House)";
-    city9.hotlineNumber = @"(770) 386-8779";
+    city9.cityName = @"Brunswick";
+    city9.shelterName = @"Glynn Community Crisis";
+    city9.hotlineNumber = @"(912) 264-4357";
     
     Cities *city10 = [Cities new];
-    city10.cityName = @"Cedartown";
-    city10.shelterName = @"Polk County Women's Shelter, Inc.";
-    city10.hotlineNumber = @"(770) 749-9330";
+    city10.cityName = @"Canton";
+    city10.shelterName = @"Cherokee Family Violence";
+    city10.hotlineNumber = @"(770) 479-1703";
     
     Cities *city11 = [Cities new];
-    city11.cityName = @"Clayton";
-    city11.shelterName = @"Fight Abuse in the Home (FAITH), Inc.";
-    city11.hotlineNumber = @"(888) 782-1338";
+    city11.cityName = @"Carrollton";
+    city11.shelterName = @"Carroll County Emergency Shelter, Inc.";
+    city11.hotlineNumber = @"(770) 834-1141";
     
     Cities *city12 = [Cities new];
-    city12.cityName = @"Columbus";
-    city12.shelterName = @"Columbus Alliance for Battered Women, Inc.";
-    city12.hotlineNumber = @"(706) 324-3850";
+    city12.cityName = @"Cartersville";
+    city12.shelterName = @"Christian League for Battered Women, Inc. (Tranquility House)";
+    city12.hotlineNumber = @"(770) 386-8779";
     
     Cities *city13 = [Cities new];
-    city13.cityName = @"Conyers";
-    city13.shelterName = @"Project Renewal Domestic Violence Intervention Program, Inc.";
-    city13.hotlineNumber = @"(770) 860-1666";
+    city13.cityName = @"Cedartown";
+    city13.shelterName = @"Polk County Women's Shelter, Inc.";
+    city13.hotlineNumber = @"(770) 749-9330";
     
     Cities *city14 = [Cities new];
-    city14.cityName = @"Cornelia";
-    city14.shelterName = @"Circle of Hope, Inc.";
-    city14.hotlineNumber = @"(706) 776-4673";
+    city14.cityName = @"Clayton";
+    city14.shelterName = @"Fight Abuse in the Home (FAITH), Inc.";
+    city14.hotlineNumber = @"(888) 782-1338";
     
     Cities *city15 = [Cities new];
-    city15.cityName = @"Cumming";
-    city15.shelterName = @"Forsyth County Family Haven, Inc.";
-    city15.hotlineNumber = @"(770) 887-1121";
+    city15.cityName = @"Columbus";
+    city15.shelterName = @"Columbus Alliance for Battered Women, Inc.";
+    city15.hotlineNumber = @"(706) 324-3850";
     
     Cities *city16 = [Cities new];
-    city16.cityName = @"Dahlonega";
-    city16.shelterName = @"NOA's Ark, Inc.";
-    city16.hotlineNumber = @"(706) 864-1986";
+    city16.cityName = @"Conyers";
+    city16.shelterName = @"Project Renewal Domestic Violence Intervention Program, Inc.";
+    city16.hotlineNumber = @"(770) 860-1666";
     
     Cities *city17 = [Cities new];
-    city17.cityName = @"Dalton";
-    city17.shelterName = @"Northwest Georgia Family Crisis Center, Inc.";
-    city17.hotlineNumber = @"(706) 278-5586";
+    city17.cityName = @"Cornelia";
+    city17.shelterName = @"Circle of Hope, Inc.";
+    city17.hotlineNumber = @"(706) 776-4673";
     
     Cities *city18 = [Cities new];
-    city18.cityName = @"Decatur";
-    city18.shelterName = @"International Women's House, Inc.";
-    city18.hotlineNumber = @"(770) 413-5557";
+    city18.cityName = @"Cumming";
+    city18.shelterName = @"Forsyth County Family Haven, Inc.";
+    city18.hotlineNumber = @"(770) 887-1121";
     
     Cities *city19 = [Cities new];
-    city19.cityName = @"Decatur";
-    city19.shelterName = @"Women's Resource Center to End Domestic Violence, Inc.";
-    city19.hotlineNumber = @"(404) 688-9436";
+    city19.cityName = @"Dahlonega";
+    city19.shelterName = @"NOA's Ark, Inc.";
+    city19.hotlineNumber = @"(706) 864-1986";
     
     Cities *city20 = [Cities new];
-    city20.cityName = @"Douglasville";
-    city20.shelterName = @"S.H.A.R.E. House, Inc.";
-    city20.hotlineNumber = @"(770) 489-7513";
+    city20.cityName = @"Dalton";
+    city20.shelterName = @"Northwest Georgia Family Crisis Center, Inc.";
+    city20.hotlineNumber = @"(706) 278-5586";
     
     Cities *city21 = [Cities new];
-    city21.cityName = @"Dublin";
-    city21.shelterName = @"Women in Need of God's Shelter, Inc.";
-    city21.hotlineNumber = @"(478) 272-8000";
+    city21.cityName = @"Decatur";
+    city21.shelterName = @"International Women's House, Inc.";
+    city21.hotlineNumber = @"(770) 413-5557";
     
     Cities *city22 = [Cities new];
-    city22.cityName = @"Fayetteville";
-    city22.shelterName = @"Fayette County Council on Domestic Violence";
-    city22.hotlineNumber = @"(770) 460-1604";
+    city22.cityName = @"Decatur";
+    city22.shelterName = @"Women's Resource Center to End Domestic Violence, Inc.";
+    city22.hotlineNumber = @"(404) 688-9436";
     
     Cities *city23 = [Cities new];
-    city23.cityName = @"Gainesville";
-    city23.shelterName = @"Gateway House, Inc.";
-    city23.hotlineNumber = @"(770) 536-5860";
+    city23.cityName = @"Doraville";
+    city23.shelterName = @"Caminar Latino, Inc.";
+    city23.hotlineNumber = @"(770) 873-3022";
     
     Cities *city24 = [Cities new];
-    city24.cityName = @"Greensboro";
-    city24.shelterName = @"Circle of Love Center, Inc.";
-    city24.hotlineNumber = @"(706) 453-7135";
+    city24.cityName = @"Douglasville";
+    city24.shelterName = @"S.H.A.R.E. House, Inc.";
+    city24.hotlineNumber = @"(770) 489-7513";
     
     Cities *city25 = [Cities new];
-    city25.cityName = @"Hartwell";
-    city25.shelterName = @"Northeast Georgia Council on Domestic Violence";
-    city25.hotlineNumber = @"(706) 376-7111";
+    city25.cityName = @"Dublin";
+    city25.shelterName = @"Women in Need of God's Shelter, Inc.";
+    city25.hotlineNumber = @"(478) 272-8000";
     
     Cities *city26 = [Cities new];
-    city26.cityName = @"Hinesville";
-    city26.shelterName = @"Tri-County Protective Agency, Inc.";
-    city26.hotlineNumber = @"(912) 368-9200";
+    city26.cityName = @"Fayetteville";
+    city26.shelterName = @"Fayette County Council on Domestic Violence";
+    city26.hotlineNumber = @"(770) 460-1604";
     
     Cities *city27 = [Cities new];
-    city27.cityName = @"Jesup";
-    city27.shelterName = @"Wayne County Protective Agency, Inc.";
-    city27.hotlineNumber = @"(912) 588-0382";
+    city27.cityName = @"Gainesville";
+    city27.shelterName = @"Gateway House, Inc.";
+    city27.hotlineNumber = @"(770) 536-5860";
     
     Cities *city28 = [Cities new];
-    city28.cityName = @"Lafayette";
-    city28.shelterName = @"Family Crisis Center of Walker, Dade, Catoosa, Chattooga Counties";
-    city28.hotlineNumber = @"(706) 375-7630";
+    city28.cityName = @"Greensboro";
+    city28.shelterName = @"Circle of Love Center, Inc.";
+    city28.hotlineNumber = @"(706) 453-7135";
     
     Cities *city29 = [Cities new];
-    city29.cityName = @"Lawrenceville";
-    city29.shelterName = @"Partnership Against Domestic Violence, Inc.";
-    city29.hotlineNumber = @"(770) 963-9799";
+    city29.cityName = @"Hartwell";
+    city29.shelterName = @"Northeast Georgia Council on Domestic Violence";
+    city29.hotlineNumber = @"(706) 376-7111";
     
     Cities *city30 = [Cities new];
-    city30.cityName = @"Macon";
-    city30.shelterName = @"Crisis Line & Safe House";
-    city30.hotlineNumber = @"(478) 738-9800";
+    city30.cityName = @"Hinesville";
+    city30.shelterName = @"Tri-County Protective Agency, Inc.";
+    city30.hotlineNumber = @"(912) 368-9200";
     
     Cities *city31 = [Cities new];
-    city31.cityName = @"Marietta";
-    city31.shelterName = @"YWCA of Northwest Georgia";
-    city31.hotlineNumber = @"(770) 427-3390";
+    city31.cityName = @"Jesup";
+    city31.shelterName = @"Wayne County Protective Agency, Inc.";
+    city31.hotlineNumber = @"(912) 588-0382";
     
     Cities *city32 = [Cities new];
-    city32.cityName = @"McDonough";
-    city32.shelterName = @"Flint Circuit Council on Family Violence, Inc. (Haven House)";
-    city32.hotlineNumber = @"(770) 954-9229";
+    city32.cityName = @"Lafayette";
+    city32.shelterName = @"Family Crisis Center of Walker, Dade, Catoosa, Chattooga Counties";
+    city32.hotlineNumber = @"(706) 375-7630";
     
     Cities *city33 = [Cities new];
-    city33.cityName = @"Morrow";
-    city33.shelterName = @"Association on Battered Women of Clayton County, Inc. (Securus House)";
-    city33.hotlineNumber = @"(770) 961-7233";
+    city33.cityName = @"Lawrenceville";
+    city33.shelterName = @"Partnership Against Domestic Violence, Inc.";
+    city33.hotlineNumber = @"(770) 963-9799";
     
     Cities *city34 = [Cities new];
-    city34.cityName = @"Rome";
-    city34.shelterName = @"Hospitality House for Women, Inc.";
-    city34.hotlineNumber = @"(706) 235-4673";
+    city34.cityName = @"Macon";
+    city34.shelterName = @"Crisis Line & Safe House";
+    city34.hotlineNumber = @"(478) 738-9800";
     
     Cities *city35 = [Cities new];
-    city35.cityName = @"Savannah";
-    city35.shelterName = @"Savannah Area Family Emergency";
-    city35.hotlineNumber = @"(912) 629-8888";
+    city35.cityName = @"Marietta";
+    city35.shelterName = @"YWCA of Northwest Georgia";
+    city35.hotlineNumber = @"(770) 427-3390";
     
     Cities *city36 = [Cities new];
-    city36.cityName = @"St. Marys";
-    city36.shelterName = @"Camden Community Crisis Center, Inc";
-    city36.hotlineNumber = @"(912) 882-7858";
+    city36.cityName = @"McDonough";
+    city36.shelterName = @"Flint Circuit Council on Family Violence, Inc. (Haven House)";
+    city36.hotlineNumber = @"(770) 954-9229";
     
     Cities *city37 = [Cities new];
-    city37.cityName = @"Statesboro";
-    city37.shelterName = @"Citizens Against Violence, Inc.";
-    city37.hotlineNumber = @"(912) 764-4605";
+    city37.cityName = @"Morrow";
+    city37.shelterName = @"Association on Battered Women of Clayton County, Inc. (Securus House)";
+    city37.hotlineNumber = @"(770) 961-7233";
     
     Cities *city38 = [Cities new];
-    city38.cityName = @"Thomasville";
-    city38.shelterName = @"Halcyon Home, Inc.";
-    city38.hotlineNumber = @"(229) 226-6666";
+    city38.cityName = @"Rome";
+    city38.shelterName = @"Hospitality House for Women, Inc.";
+    city38.hotlineNumber = @"(706) 235-4673";
     
     Cities *city39 = [Cities new];
-    city39.cityName = @"Tifton";
-    city39.shelterName = @"Tifton Judicial Circuit Shelter, Inc. (Ruth's Cottage)";
-    city39.hotlineNumber = @"(229) 387-9664";
+    city39.cityName = @"Savannah";
+    city39.shelterName = @"Savannah Area Family Emergency";
+    city39.hotlineNumber = @"(912) 629-8888";
     
     Cities *city40 = [Cities new];
-    city40.cityName = @"Troup";
-    city40.shelterName = @"Harmony House, Inc.";
-    city40.hotlineNumber = @"(706) 885-1525";
+    city40.cityName = @"St. Marys";
+    city40.shelterName = @"Camden Community Crisis Center, Inc";
+    city40.hotlineNumber = @"(912) 882-7858";
     
     Cities *city41 = [Cities new];
-    city41.cityName = @"Valdosta";
-    city41.shelterName = @"Battered Women's Shelter, Inc. (The Haven)";
-    city41.hotlineNumber = @"(229) 244-1765";
+    city41.cityName = @"Statesboro";
+    city41.shelterName = @"Citizens Against Violence, Inc.";
+    city41.hotlineNumber = @"(912) 764-4605";
     
     Cities *city42 = [Cities new];
-    city42.cityName = @"Vidalia";
-    city42.shelterName = @"The Refuge Domestic Violence Shelter, Inc.";
-    city42.hotlineNumber = @"(912) 538-9935";
+    city42.cityName = @"Thomasville";
+    city42.shelterName = @"Halcyon Home, Inc.";
+    city42.hotlineNumber = @"(229) 226-6666";
     
     Cities *city43 = [Cities new];
-    city43.cityName = @"Warner Robins";
-    city43.shelterName = @"Warner Robins Salvation Army";
-    city43.hotlineNumber = @"(478) 923-6294";
+    city43.cityName = @"Tifton";
+    city43.shelterName = @"Tifton Judicial Circuit Shelter, Inc. (Ruth's Cottage)";
+    city43.hotlineNumber = @"(229) 387-9664";
     
     Cities *city44 = [Cities new];
-    city44.cityName = @"Waycross";
-    city44.shelterName = @"Waycross Area Shelter d/b/a Magnolia House";
-    city44.hotlineNumber = @"(912) 285-5850";
-    
+    city44.cityName = @"Troup";
+    city44.shelterName = @"Harmony House, Inc.";
+    city44.hotlineNumber = @"(706) 885-1525";
+
     Cities *city45 = [Cities new];
-    city45.cityName = @"Winder";
-    city45.shelterName = @"Peace Place, Inc.";
-    city45.hotlineNumber = @"(770) 586-0927";
+    city45.cityName = @"Valdosta";
+    city45.shelterName = @"Battered Women's Shelter, Inc. (The Haven)";
+    city45.hotlineNumber = @"(229) 244-1765";
     
-    cities = [NSArray arrayWithObjects:city0, city1, city2, city3, city4, city5, city6, city7, city8, city9, city10, city11, city12, city13, city14, city15, city16, city17, city18, city19, city20, city21, city22, city23, city24, city25, city26, city27, city28, city29, city30, city31, city32, city33, city34, city35, city36, city37, city38, city39, city40, city41, city42, city43, city44, city45, nil];
+    Cities *city46 = [Cities new];
+    city46.cityName = @"Vidalia";
+    city46.shelterName = @"The Refuge Domestic Violence Shelter, Inc.";
+    city46.hotlineNumber = @"(912) 538-9935";
+    
+    Cities *city47 = [Cities new];
+    city47.cityName = @"Warner Robins";
+    city47.shelterName = @"Warner Robins Salvation Army";
+    city47.hotlineNumber = @"(478) 923-6294";
+    
+    Cities *city48 = [Cities new];
+    city48.cityName = @"Waycross";
+    city48.shelterName = @"Waycross Area Shelter d/b/a Magnolia House";
+    city48.hotlineNumber = @"(912) 285-5850";
+    
+    Cities *city49 = [Cities new];
+    city49.cityName = @"Winder";
+    city49.shelterName = @"Peace Place, Inc.";
+    city49.hotlineNumber = @"(770) 586-0927";
+    
+    cities = [NSArray arrayWithObjects:city0, city1, city2, city3, city4, city5, city6, city7, city8, city9, city10, city11, city12, city13, city14, city15, city16, city17, city18, city19, city20, city21, city22, city23, city24, city25, city26, city27, city28, city29, city30, city31, city32, city33, city34, city35, city36, city37, city38, city39, city40, city41, city42, city43, city44, city45, city46, city47, city48, city49, nil];
 
 }
 
