@@ -87,6 +87,7 @@
 		99C36D4619E1E47700703E46 /* Turqpurse.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C36D4519E1E47700703E46 /* Turqpurse.png */; };
 		99C36D4819E1E48600703E46 /* PPinkpurse.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C36D4719E1E48600703E46 /* PPinkpurse.png */; };
 		99E073F719C2442D00F8DA22 /* PPSponsorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E073F619C2442D00F8DA22 /* PPSponsorsTableViewController.m */; };
+		99E742F71B28CAB200443805 /* TestPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99E742F61B28CAB200443805 /* TestPList.plist */; };
 		99EF41A018895F07004A148F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF419F18895F07004A148F /* MapKit.framework */; };
 		99F208D7189A7E50003DDE7E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F208D6189A7E4F003DDE7E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -229,6 +230,7 @@
 		99C36D4719E1E48600703E46 /* PPinkpurse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PPinkpurse.png; sourceTree = "<group>"; };
 		99E073F519C2442D00F8DA22 /* PPSponsorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPSponsorsTableViewController.h; path = "the purple pocketbook/PPSponsorsTableViewController.h"; sourceTree = SOURCE_ROOT; };
 		99E073F619C2442D00F8DA22 /* PPSponsorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPSponsorsTableViewController.m; path = "the purple pocketbook/PPSponsorsTableViewController.m"; sourceTree = SOURCE_ROOT; };
+		99E742F61B28CAB200443805 /* TestPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestPList.plist; sourceTree = "<group>"; };
 		99EF418E18881208004A148F /* SuccessStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessStory.h; sourceTree = "<group>"; };
 		99EF418F18881208004A148F /* SuccessStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessStory.m; sourceTree = "<group>"; };
 		99EF4191188829EE004A148F /* PPSuccessStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSuccessStoryViewController.h; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 		9956215C188486CA00541044 = {
 			isa = PBXGroup;
 			children = (
+				99E742F61B28CAB200443805 /* TestPList.plist */,
 				996DF32119EDADAA0008991F /* HideYourAppViewController.h */,
 				996DF32219EDADAA0008991F /* HideYourAppViewController.m */,
 				9956216E188486CA00541044 /* The Purple PocketBook */,
@@ -679,6 +682,7 @@
 				99C36D4619E1E47700703E46 /* Turqpurse.png in Resources */,
 				9949294119D77901003872B8 /* yellowpurse.png in Resources */,
 				9949294B19D8C99A003872B8 /* Greenpurse.png in Resources */,
+				99E742F71B28CAB200443805 /* TestPList.plist in Resources */,
 				994FC8EE1A16CEC200DE1393 /* Main.storyboard in Resources */,
 				9949294F19D8CB33003872B8 /* Bluepurse.png in Resources */,
 				9949294919D8C993003872B8 /* Goldpurse.png in Resources */,

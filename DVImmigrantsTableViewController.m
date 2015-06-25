@@ -13,12 +13,15 @@
 
 @interface DVImmigrantsTableViewController ()
 
+
 @end
 
 @implementation DVImmigrantsTableViewController
+
 {
     NSArray *Immigrant;
 }
+
 
 - (void)viewDidLoad
 {
@@ -96,13 +99,13 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)DVItableView:(UITableView *)DVItableView numberOfRowsInSection:(NSInteger)section {
     
     return [Immigrant count];
 }
 
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+- (UITableViewCell *)DVItableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];

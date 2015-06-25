@@ -12,11 +12,45 @@
 
 
 
-//@interface PPMainViewController ()<MFMessageComposeViewControllerDelegate>
+@interface PPMainViewController ()<UIImagePickerControllerDelegate, UINavigationControllerDelegate/*, MFMessageComposeViewControllerDelegate*/>
+@end
 
-//@end
 
 @implementation PPMainViewController
+
+- (IBAction)takePhoto:(id)sender {
+//    if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+    UIImagePickerController* imagePickerController = [[UIImagePickerController alloc] init];
+    imagePickerController.delegate = self;
+//    imagePickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+    
+    [self presentViewController:imagePickerController animated:YES completion:nil];
+//    }
+//    else {
+//        [[[UIAlertView alloc] initWithTitle:@"No Camera" message:@"A camera is required for this feature." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
+//    }
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    NSLog(@"Did pick photo");
+    
+    dispatch_async(dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0), ^{
+        NSString* documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, true) firstObject];
+        NSString* filePath = [documentsPath stringByAppendingPathComponent:@"Photo.jpg"];
+        NSLog(@"File path: %@", filePath);
+        UIImage* image = info[UIImagePickerControllerOriginalImage];
+        [UIImageJPEGRepresentation(image, 0.9) writeToFile:filePath atomically:YES];
+    });
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
